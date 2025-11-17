@@ -1,0 +1,5 @@
+--admin mode
+_G.PremiumMode = {
+		"AdminOnlyKeyA",
+		"AdminOnlyPlsNo"
+} 
