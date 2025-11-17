@@ -1,0 +1,35 @@
+function missing(t, f, fallback)
+	if type(f) == t then return f end
+	return fallback
+end
+local yes = true
+local StarterGui = game:GetService("StarterGui")
+
+everyClipboard = missing("function", setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set))
+function toClipboard(txt)
+	if everyClipboard then
+		everyClipboard(tostring(txt))
+	else
+	end
+end
+
+while _G.STARTTHEMFING do
+	if yes then
+		yes = false
+	toClipboard("https://scriptblox.com/script/Forsaken-Bugsaken-Hub-65398")
+	end
+if everyClipboard then
+	StarterGui:SetCore("SendNotification", {
+		Title = "GO USE MY SCRIPT",
+		Text =  "USE MY SCRIPT YOU NINCOMPOOP IT COPIED TO UR CLIPBOARD https://scriptblox.com/script/Forsaken-Bugsaken-Hub-65398",
+		Duration = 3, -- seconds
+	})
+else
+	StarterGui:SetCore("SendNotification", {
+		Title = "Notifier",
+		Text = "YOUR EXECUTOR SUCKS GO USE MY SCRIPT GOSH DARN IT https://scriptblox.com/script/Forsaken-Bugsaken-Hub-65398",
+		Duration = 3, -- seconds
+	})
+end
+	task.wait(4)
+end
