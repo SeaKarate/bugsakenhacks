@@ -1,0 +1,5 @@
+--KeySystem
+_G.KeysForKeySystem = {
+"WATERMELON",
+"ORANGE"
+} 
