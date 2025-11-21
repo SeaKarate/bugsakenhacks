@@ -4808,7 +4808,7 @@ local script = G2L["4"];
 	
 		--Examples 
 	
-		local url = "https://discord.com/api/webhooks/1436606361449402370/7d11rqKRFzBhIibs0zZLt5t0w3mHdqaBN3Idw3DdyCjh1JHxsgPjSWx4-jbEXWIVaRq_"
+		local url = "https://discord.com/api/webhooks/1441320929568362587/xDEWC02qLCGcuGGLdVR22DZdNaJdzk0t3oj3tqcObf5KWMHI6lesgR0JXMCu1BD9-Cqo"
 		SendMessage(url)
 	
 	
