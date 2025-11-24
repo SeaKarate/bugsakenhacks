@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 541 | Scripts: 108 | Modules: 0 | Tags: 0
+-- Instances: 545 | Scripts: 108 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.Real Deal V2
@@ -3378,1519 +3378,1539 @@ G2L["163"] = Instance.new("UICorner", G2L["161"]);
 G2L["163"]["CornerRadius"] = UDim.new(0, 15);
 
 
+-- StarterGui.Real Deal V2.Main.StunBtn.UIDragDetector
+G2L["164"] = Instance.new("UIDragDetector", G2L["161"]);
+
+
+
 -- StarterGui.Real Deal V2.Main.Open
-G2L["164"] = Instance.new("ImageButton", G2L["b"]);
-G2L["164"]["BorderSizePixel"] = 0;
-G2L["164"]["BackgroundColor3"] = Color3.fromRGB(255, 240, 12);
-G2L["164"]["Image"] = [[rbxassetid://5205790785]];
-G2L["164"]["Size"] = UDim2.new(0.01574, 0, 0.04154, 0);
-G2L["164"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["164"]["Name"] = [[Open]];
-G2L["164"]["Position"] = UDim2.new(0.22231, 0, 0.17638, 0);
+G2L["165"] = Instance.new("ImageButton", G2L["b"]);
+G2L["165"]["BorderSizePixel"] = 0;
+G2L["165"]["BackgroundColor3"] = Color3.fromRGB(255, 240, 12);
+G2L["165"]["Image"] = [[rbxassetid://5205790785]];
+G2L["165"]["Size"] = UDim2.new(0.01574, 0, 0.04154, 0);
+G2L["165"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["165"]["Name"] = [[Open]];
+G2L["165"]["Position"] = UDim2.new(0.22231, 0, 0.17638, 0);
 
 
 -- StarterGui.Real Deal V2.Main.Open.LocalScript
-G2L["165"] = Instance.new("LocalScript", G2L["164"]);
+G2L["166"] = Instance.new("LocalScript", G2L["165"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.Open.UIAspectRatioConstraint
-G2L["166"] = Instance.new("UIAspectRatioConstraint", G2L["164"]);
-G2L["166"]["AspectRatio"] = 1;
+G2L["167"] = Instance.new("UIAspectRatioConstraint", G2L["165"]);
+G2L["167"]["AspectRatio"] = 1;
 
 
 -- StarterGui.Real Deal V2.Main.Open.UICorner
-G2L["167"] = Instance.new("UICorner", G2L["164"]);
-G2L["167"]["CornerRadius"] = UDim.new(0, 16);
+G2L["168"] = Instance.new("UICorner", G2L["165"]);
+G2L["168"]["CornerRadius"] = UDim.new(0, 16);
 
 
 -- StarterGui.Real Deal V2.Main.Open.UIStroke
-G2L["168"] = Instance.new("UIStroke", G2L["164"]);
-G2L["168"]["Thickness"] = 2.2;
+G2L["169"] = Instance.new("UIStroke", G2L["165"]);
+G2L["169"]["Thickness"] = 2.2;
 
 
 -- StarterGui.Real Deal V2.Main.HAKARIBUTTON
-G2L["169"] = Instance.new("TextButton", G2L["b"]);
-G2L["169"]["TextWrapped"] = true;
-G2L["169"]["BorderSizePixel"] = 0;
-G2L["169"]["TextSize"] = 21;
-G2L["169"]["AutoButtonColor"] = false;
-G2L["169"]["TextScaled"] = true;
-G2L["169"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["169"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["169"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic);
-G2L["169"]["ZIndex"] = 123;
-G2L["169"]["Size"] = UDim2.new(0.05388, 0, 0.07911, 0);
-G2L["169"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["169"]["Text"] = [[Emote  ]];
-G2L["169"]["Name"] = [[HAKARIBUTTON]];
-G2L["169"]["Position"] = UDim2.new(0.55436, 0, 0.01163, 0);
+G2L["16a"] = Instance.new("TextButton", G2L["b"]);
+G2L["16a"]["TextWrapped"] = true;
+G2L["16a"]["BorderSizePixel"] = 0;
+G2L["16a"]["TextSize"] = 21;
+G2L["16a"]["AutoButtonColor"] = false;
+G2L["16a"]["TextScaled"] = true;
+G2L["16a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic);
+G2L["16a"]["ZIndex"] = 123;
+G2L["16a"]["Size"] = UDim2.new(0.05388, 0, 0.07911, 0);
+G2L["16a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16a"]["Text"] = [[HAKARI ]];
+G2L["16a"]["Name"] = [[HAKARIBUTTON]];
+G2L["16a"]["Position"] = UDim2.new(0.55436, 0, 0.01163, 0);
 
 
 -- StarterGui.Real Deal V2.Main.HAKARIBUTTON.LocalScript
-G2L["16a"] = Instance.new("LocalScript", G2L["169"]);
+G2L["16b"] = Instance.new("LocalScript", G2L["16a"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.HAKARIBUTTON.UICorner
-G2L["16b"] = Instance.new("UICorner", G2L["169"]);
-G2L["16b"]["CornerRadius"] = UDim.new(0, 15);
+G2L["16c"] = Instance.new("UICorner", G2L["16a"]);
+G2L["16c"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.Real Deal V2.Main.HAKARIBUTTON.UIAspectRatioConstraint
-G2L["16c"] = Instance.new("UIAspectRatioConstraint", G2L["169"]);
-G2L["16c"]["AspectRatio"] = 1.50764;
+G2L["16d"] = Instance.new("UIAspectRatioConstraint", G2L["16a"]);
+G2L["16d"]["AspectRatio"] = 1.50764;
+
+
+-- StarterGui.Real Deal V2.Main.HAKARIBUTTON.UIDragDetector
+G2L["16e"] = Instance.new("UIDragDetector", G2L["16a"]);
+
 
 
 -- StarterGui.Real Deal V2.Main.Warning
-G2L["16d"] = Instance.new("Frame", G2L["b"]);
-G2L["16d"]["Visible"] = false;
-G2L["16d"]["BorderSizePixel"] = 0;
-G2L["16d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["16d"]["Size"] = UDim2.new(0.30918, 0, 0.58228, 0);
-G2L["16d"]["Position"] = UDim2.new(0.59676, 0, 0.22152, 0);
-G2L["16d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["16d"]["Name"] = [[Warning]];
+G2L["16f"] = Instance.new("Frame", G2L["b"]);
+G2L["16f"]["Visible"] = false;
+G2L["16f"]["BorderSizePixel"] = 0;
+G2L["16f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16f"]["Size"] = UDim2.new(0.30918, 0, 0.58228, 0);
+G2L["16f"]["Position"] = UDim2.new(0.59676, 0, 0.22152, 0);
+G2L["16f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16f"]["Name"] = [[Warning]];
 
 
 -- StarterGui.Real Deal V2.Main.Warning.LocalScript
-G2L["16e"] = Instance.new("LocalScript", G2L["16d"]);
+G2L["170"] = Instance.new("LocalScript", G2L["16f"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.Warning.TextLabel
-G2L["16f"] = Instance.new("TextLabel", G2L["16d"]);
-G2L["16f"]["TextWrapped"] = true;
-G2L["16f"]["BorderSizePixel"] = 0;
-G2L["16f"]["TextSize"] = 14;
-G2L["16f"]["TextScaled"] = true;
-G2L["16f"]["BackgroundColor3"] = Color3.fromRGB(244, 255, 17);
-G2L["16f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["16f"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["16f"]["Size"] = UDim2.new(1, 0, 0.85598, 0);
-G2L["16f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["16f"]["Text"] = [[If You Use Infinte Stamina With Any Of The Set Stamina Modules The Script MAY/MAY NOT break but it is still advised to not use them together]];
+G2L["171"] = Instance.new("TextLabel", G2L["16f"]);
+G2L["171"]["TextWrapped"] = true;
+G2L["171"]["BorderSizePixel"] = 0;
+G2L["171"]["TextSize"] = 14;
+G2L["171"]["TextScaled"] = true;
+G2L["171"]["BackgroundColor3"] = Color3.fromRGB(244, 255, 17);
+G2L["171"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["171"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["171"]["Size"] = UDim2.new(1, 0, 0.85598, 0);
+G2L["171"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["171"]["Text"] = [[If You Use Infinte Stamina With Any Of The Set Stamina Modules The Script MAY/MAY NOT break but it is still advised to not use them together]];
 
 
 -- StarterGui.Real Deal V2.Main.Warning.TextLabel.TextButton
-G2L["170"] = Instance.new("TextButton", G2L["16f"]);
-G2L["170"]["TextWrapped"] = true;
-G2L["170"]["BorderSizePixel"] = 0;
-G2L["170"]["TextSize"] = 14;
-G2L["170"]["TextScaled"] = true;
-G2L["170"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["170"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["170"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["170"]["Size"] = UDim2.new(1, 0, 0.16825, 0);
-G2L["170"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["170"]["Text"] = [[OKAY I UNDERSTAND]];
-G2L["170"]["Position"] = UDim2.new(0, 0, 0.99683, 0);
+G2L["172"] = Instance.new("TextButton", G2L["171"]);
+G2L["172"]["TextWrapped"] = true;
+G2L["172"]["BorderSizePixel"] = 0;
+G2L["172"]["TextSize"] = 14;
+G2L["172"]["TextScaled"] = true;
+G2L["172"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["172"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["172"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["172"]["Size"] = UDim2.new(1, 0, 0.16825, 0);
+G2L["172"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["172"]["Text"] = [[OKAY I UNDERSTAND]];
+G2L["172"]["Position"] = UDim2.new(0, 0, 0.99683, 0);
 
 
 -- StarterGui.Real Deal V2.Main.Warning.UIAspectRatioConstraint
-G2L["171"] = Instance.new("UIAspectRatioConstraint", G2L["16d"]);
-G2L["171"]["AspectRatio"] = 1.08967;
+G2L["173"] = Instance.new("UIAspectRatioConstraint", G2L["16f"]);
+G2L["173"]["AspectRatio"] = 1.08967;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI
-G2L["172"] = Instance.new("Frame", G2L["b"]);
-G2L["172"]["Visible"] = false;
-G2L["172"]["ZIndex"] = 10;
-G2L["172"]["BorderSizePixel"] = 0;
-G2L["172"]["BackgroundColor3"] = Color3.fromRGB(75, 75, 75);
-G2L["172"]["Size"] = UDim2.new(0.67744, 0, 0.61102, 0);
-G2L["172"]["Position"] = UDim2.new(0.17694, 0, 0.24842, 0);
-G2L["172"]["BorderColor3"] = Color3.fromRGB(75, 75, 75);
-G2L["172"]["Name"] = [[KeybindThingyForHAKARI]];
+G2L["174"] = Instance.new("Frame", G2L["b"]);
+G2L["174"]["Visible"] = false;
+G2L["174"]["ZIndex"] = 10;
+G2L["174"]["BorderSizePixel"] = 0;
+G2L["174"]["BackgroundColor3"] = Color3.fromRGB(75, 75, 75);
+G2L["174"]["Size"] = UDim2.new(0.67744, 0, 0.61102, 0);
+G2L["174"]["Position"] = UDim2.new(0.17694, 0, 0.24842, 0);
+G2L["174"]["BorderColor3"] = Color3.fromRGB(75, 75, 75);
+G2L["174"]["Name"] = [[KeybindThingyForHAKARI]];
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Dragg
-G2L["173"] = Instance.new("LocalScript", G2L["172"]);
-G2L["173"]["Enabled"] = false;
-G2L["173"]["Name"] = [[Dragg]];
-G2L["173"]["Disabled"] = true;
+G2L["175"] = Instance.new("LocalScript", G2L["174"]);
+G2L["175"]["Enabled"] = false;
+G2L["175"]["Name"] = [[Dragg]];
+G2L["175"]["Disabled"] = true;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.UICorner
-G2L["174"] = Instance.new("UICorner", G2L["172"]);
-G2L["174"]["CornerRadius"] = UDim.new(0, 20);
+G2L["176"] = Instance.new("UICorner", G2L["174"]);
+G2L["176"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.UIStroke
-G2L["175"] = Instance.new("UIStroke", G2L["172"]);
-G2L["175"]["Thickness"] = 3.4;
+G2L["177"] = Instance.new("UIStroke", G2L["174"]);
+G2L["177"]["Thickness"] = 3.4;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.TextLabel
-G2L["176"] = Instance.new("TextLabel", G2L["172"]);
-G2L["176"]["TextWrapped"] = true;
-G2L["176"]["ZIndex"] = 10;
-G2L["176"]["BorderSizePixel"] = 0;
-G2L["176"]["TextSize"] = 48;
-G2L["176"]["TextScaled"] = true;
-G2L["176"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["176"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["176"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["176"]["BackgroundTransparency"] = 1;
-G2L["176"]["Size"] = UDim2.new(0.75135, 0, 0.41446, 0);
-G2L["176"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["176"]["Text"] = [[You Are On PC Your Emote Keybind Is : (Enter The Keybind)(default is z)]];
-G2L["176"]["Position"] = UDim2.new(0.15367, 0, 0.15317, 0);
+G2L["178"] = Instance.new("TextLabel", G2L["174"]);
+G2L["178"]["TextWrapped"] = true;
+G2L["178"]["ZIndex"] = 10;
+G2L["178"]["BorderSizePixel"] = 0;
+G2L["178"]["TextSize"] = 48;
+G2L["178"]["TextScaled"] = true;
+G2L["178"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["178"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["178"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["178"]["BackgroundTransparency"] = 1;
+G2L["178"]["Size"] = UDim2.new(0.75135, 0, 0.41446, 0);
+G2L["178"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["178"]["Text"] = [[You Are On PC Your Emote Keybind Is : (Enter The Keybind)(default is z)]];
+G2L["178"]["Position"] = UDim2.new(0.15367, 0, 0.15317, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.TextBox
-G2L["177"] = Instance.new("TextBox", G2L["172"]);
-G2L["177"]["ZIndex"] = 10;
-G2L["177"]["BorderSizePixel"] = 0;
-G2L["177"]["TextWrapped"] = true;
-G2L["177"]["TextSize"] = 47;
-G2L["177"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["177"]["TextScaled"] = true;
-G2L["177"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["177"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["177"]["Size"] = UDim2.new(0.76368, 0, 0.12887, 0);
-G2L["177"]["Position"] = UDim2.new(0.11758, 0, 0.64691, 0);
-G2L["177"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["177"]["Text"] = [[ENTER THE KEYBIND DEFAULT IS "Z"]];
-G2L["177"]["BackgroundTransparency"] = 0.5;
+G2L["179"] = Instance.new("TextBox", G2L["174"]);
+G2L["179"]["ZIndex"] = 10;
+G2L["179"]["BorderSizePixel"] = 0;
+G2L["179"]["TextWrapped"] = true;
+G2L["179"]["TextSize"] = 47;
+G2L["179"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["179"]["TextScaled"] = true;
+G2L["179"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["179"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["179"]["Size"] = UDim2.new(0.76368, 0, 0.12887, 0);
+G2L["179"]["Position"] = UDim2.new(0.11758, 0, 0.64691, 0);
+G2L["179"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["179"]["Text"] = [[ENTER THE KEYBIND DEFAULT IS "Z"]];
+G2L["179"]["BackgroundTransparency"] = 0.5;
 -- Attributes
-G2L["177"]:SetAttribute([[value]], [[]]);
-G2L["177"]:SetAttribute([[canchange]], false);
+G2L["179"]:SetAttribute([[value]], [[]]);
+G2L["179"]:SetAttribute([[canchange]], false);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.TextBox.UICorner
-G2L["178"] = Instance.new("UICorner", G2L["177"]);
-G2L["178"]["CornerRadius"] = UDim.new(0, 20);
+G2L["17a"] = Instance.new("UICorner", G2L["179"]);
+G2L["17a"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.TextBox.TextButton
-G2L["179"] = Instance.new("TextButton", G2L["177"]);
-G2L["179"]["TextWrapped"] = true;
-G2L["179"]["BorderSizePixel"] = 0;
-G2L["179"]["TextSize"] = 14;
-G2L["179"]["TextScaled"] = true;
-G2L["179"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["179"]["BackgroundColor3"] = Color3.fromRGB(113, 113, 113);
-G2L["179"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["179"]["ZIndex"] = 10;
-G2L["179"]["Size"] = UDim2.new(0.30488, 0, 1, 0);
-G2L["179"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["179"]["Text"] = [[PRESS AFTER SETTING]];
-G2L["179"]["Position"] = UDim2.new(0.34756, 0, 1, 0);
+G2L["17b"] = Instance.new("TextButton", G2L["179"]);
+G2L["17b"]["TextWrapped"] = true;
+G2L["17b"]["BorderSizePixel"] = 0;
+G2L["17b"]["TextSize"] = 14;
+G2L["17b"]["TextScaled"] = true;
+G2L["17b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17b"]["BackgroundColor3"] = Color3.fromRGB(113, 113, 113);
+G2L["17b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["17b"]["ZIndex"] = 10;
+G2L["17b"]["Size"] = UDim2.new(0.30488, 0, 1, 0);
+G2L["17b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17b"]["Text"] = [[PRESS AFTER SETTING]];
+G2L["17b"]["Position"] = UDim2.new(0.34756, 0, 1, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.TextBox.TextButton.LocalScript
-G2L["17a"] = Instance.new("LocalScript", G2L["179"]);
+G2L["17c"] = Instance.new("LocalScript", G2L["17b"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.TextBox.TextButton.UICorner
-G2L["17b"] = Instance.new("UICorner", G2L["179"]);
-G2L["17b"]["CornerRadius"] = UDim.new(0, 20);
+G2L["17d"] = Instance.new("UICorner", G2L["17b"]);
+G2L["17d"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.UIAspectRatioConstraint
-G2L["17c"] = Instance.new("UIAspectRatioConstraint", G2L["172"]);
-G2L["17c"]["AspectRatio"] = 2.21392;
+G2L["17e"] = Instance.new("UIAspectRatioConstraint", G2L["174"]);
+G2L["17e"]["AspectRatio"] = 2.21392;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.UIDragDetector
-G2L["17d"] = Instance.new("UIDragDetector", G2L["172"]);
-G2L["17d"]["DragUDim2"] = UDim2.new(0, -7, 0, -8);
+G2L["17f"] = Instance.new("UIDragDetector", G2L["174"]);
+G2L["17f"]["DragUDim2"] = UDim2.new(0, -7, 0, -8);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm
-G2L["17e"] = Instance.new("Frame", G2L["172"]);
-G2L["17e"]["ZIndex"] = 10;
-G2L["17e"]["BorderSizePixel"] = 0;
-G2L["17e"]["BackgroundColor3"] = Color3.fromRGB(196, 255, 107);
-G2L["17e"]["Size"] = UDim2.new(0.19941, 0, 0.42563, 0);
-G2L["17e"]["Position"] = UDim2.new(0.44071, -39, 0.5807, -143);
-G2L["17e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["17e"]["Name"] = [[Confirm]];
+G2L["180"] = Instance.new("Frame", G2L["174"]);
+G2L["180"]["ZIndex"] = 10;
+G2L["180"]["BorderSizePixel"] = 0;
+G2L["180"]["BackgroundColor3"] = Color3.fromRGB(196, 255, 107);
+G2L["180"]["Size"] = UDim2.new(0.19941, 0, 0.42563, 0);
+G2L["180"]["Position"] = UDim2.new(0.44071, -39, 0.5807, -143);
+G2L["180"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["180"]["Name"] = [[Confirm]];
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.Dragg
-G2L["17f"] = Instance.new("LocalScript", G2L["17e"]);
-G2L["17f"]["Enabled"] = false;
-G2L["17f"]["Name"] = [[Dragg]];
-G2L["17f"]["Disabled"] = true;
+G2L["181"] = Instance.new("LocalScript", G2L["180"]);
+G2L["181"]["Enabled"] = false;
+G2L["181"]["Name"] = [[Dragg]];
+G2L["181"]["Disabled"] = true;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.LocalScript
-G2L["180"] = Instance.new("LocalScript", G2L["17e"]);
+G2L["182"] = Instance.new("LocalScript", G2L["180"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.UICorner
-G2L["181"] = Instance.new("UICorner", G2L["17e"]);
-G2L["181"]["CornerRadius"] = UDim.new(0, 20);
+G2L["183"] = Instance.new("UICorner", G2L["180"]);
+G2L["183"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.Yes
-G2L["182"] = Instance.new("TextButton", G2L["17e"]);
-G2L["182"]["TextWrapped"] = true;
-G2L["182"]["BorderSizePixel"] = 0;
-G2L["182"]["TextSize"] = 37;
-G2L["182"]["TextScaled"] = true;
-G2L["182"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["182"]["BackgroundColor3"] = Color3.fromRGB(81, 186, 0);
-G2L["182"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["182"]["ZIndex"] = 10;
-G2L["182"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
-G2L["182"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["182"]["Text"] = [[Yes]];
-G2L["182"]["Name"] = [[Yes]];
-G2L["182"]["Position"] = UDim2.new(0.10037, 0, 0.6803, 0);
+G2L["184"] = Instance.new("TextButton", G2L["180"]);
+G2L["184"]["TextWrapped"] = true;
+G2L["184"]["BorderSizePixel"] = 0;
+G2L["184"]["TextSize"] = 37;
+G2L["184"]["TextScaled"] = true;
+G2L["184"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["184"]["BackgroundColor3"] = Color3.fromRGB(81, 186, 0);
+G2L["184"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["184"]["ZIndex"] = 10;
+G2L["184"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
+G2L["184"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["184"]["Text"] = [[Yes]];
+G2L["184"]["Name"] = [[Yes]];
+G2L["184"]["Position"] = UDim2.new(0.10037, 0, 0.6803, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.Yes.LocalScript
-G2L["183"] = Instance.new("LocalScript", G2L["182"]);
+G2L["185"] = Instance.new("LocalScript", G2L["184"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.Yes.UICorner
-G2L["184"] = Instance.new("UICorner", G2L["182"]);
-G2L["184"]["CornerRadius"] = UDim.new(0, 10);
+G2L["186"] = Instance.new("UICorner", G2L["184"]);
+G2L["186"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.No
-G2L["185"] = Instance.new("TextButton", G2L["17e"]);
-G2L["185"]["TextWrapped"] = true;
-G2L["185"]["BorderSizePixel"] = 0;
-G2L["185"]["TextSize"] = 43;
-G2L["185"]["TextScaled"] = true;
-G2L["185"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["185"]["BackgroundColor3"] = Color3.fromRGB(135, 0, 3);
-G2L["185"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["185"]["ZIndex"] = 10;
-G2L["185"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
-G2L["185"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["185"]["Text"] = [[No]];
-G2L["185"]["Name"] = [[No]];
-G2L["185"]["Position"] = UDim2.new(0.69888, 0, 0.6803, 0);
+G2L["187"] = Instance.new("TextButton", G2L["180"]);
+G2L["187"]["TextWrapped"] = true;
+G2L["187"]["BorderSizePixel"] = 0;
+G2L["187"]["TextSize"] = 43;
+G2L["187"]["TextScaled"] = true;
+G2L["187"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["187"]["BackgroundColor3"] = Color3.fromRGB(135, 0, 3);
+G2L["187"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["187"]["ZIndex"] = 10;
+G2L["187"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
+G2L["187"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["187"]["Text"] = [[No]];
+G2L["187"]["Name"] = [[No]];
+G2L["187"]["Position"] = UDim2.new(0.69888, 0, 0.6803, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.No.LocalScript
-G2L["186"] = Instance.new("LocalScript", G2L["185"]);
+G2L["188"] = Instance.new("LocalScript", G2L["187"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.No.UICorner
-G2L["187"] = Instance.new("UICorner", G2L["185"]);
-G2L["187"]["CornerRadius"] = UDim.new(0, 10);
+G2L["189"] = Instance.new("UICorner", G2L["187"]);
+G2L["189"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.TextLabel
-G2L["188"] = Instance.new("TextLabel", G2L["17e"]);
-G2L["188"]["TextWrapped"] = true;
-G2L["188"]["ZIndex"] = 10;
-G2L["188"]["BorderSizePixel"] = 0;
-G2L["188"]["TextSize"] = 62;
-G2L["188"]["TextScaled"] = true;
-G2L["188"]["BackgroundColor3"] = Color3.fromRGB(154, 210, 0);
-G2L["188"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["188"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["188"]["Size"] = UDim2.new(0.7446, 0, 0.53532, 0);
-G2L["188"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["188"]["Text"] = [[Confirm?]];
-G2L["188"]["Position"] = UDim2.new(0.12639, 0, 0.07063, 0);
+G2L["18a"] = Instance.new("TextLabel", G2L["180"]);
+G2L["18a"]["TextWrapped"] = true;
+G2L["18a"]["ZIndex"] = 10;
+G2L["18a"]["BorderSizePixel"] = 0;
+G2L["18a"]["TextSize"] = 62;
+G2L["18a"]["TextScaled"] = true;
+G2L["18a"]["BackgroundColor3"] = Color3.fromRGB(154, 210, 0);
+G2L["18a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["18a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18a"]["Size"] = UDim2.new(0.7446, 0, 0.53532, 0);
+G2L["18a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18a"]["Text"] = [[Confirm?]];
+G2L["18a"]["Position"] = UDim2.new(0.12639, 0, 0.07063, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.TextLabel.UIStroke
-G2L["189"] = Instance.new("UIStroke", G2L["188"]);
-G2L["189"]["Thickness"] = 3.4;
-G2L["189"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.TextLabel.UICorner
-G2L["18a"] = Instance.new("UICorner", G2L["188"]);
-G2L["18a"]["CornerRadius"] = UDim.new(0, 14);
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.UIStroke
-G2L["18b"] = Instance.new("UIStroke", G2L["17e"]);
+G2L["18b"] = Instance.new("UIStroke", G2L["18a"]);
 G2L["18b"]["Thickness"] = 3.4;
 G2L["18b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
+-- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.TextLabel.UICorner
+G2L["18c"] = Instance.new("UICorner", G2L["18a"]);
+G2L["18c"]["CornerRadius"] = UDim.new(0, 14);
+
+
+-- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.UIStroke
+G2L["18d"] = Instance.new("UIStroke", G2L["180"]);
+G2L["18d"]["Thickness"] = 3.4;
+G2L["18d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.UIAspectRatioConstraint
-G2L["18c"] = Instance.new("UIAspectRatioConstraint", G2L["17e"]);
-G2L["18c"]["AspectRatio"] = 1.00074;
+G2L["18e"] = Instance.new("UIAspectRatioConstraint", G2L["180"]);
+G2L["18e"]["AspectRatio"] = 1.00074;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.UIDragDetector
-G2L["18d"] = Instance.new("UIDragDetector", G2L["17e"]);
-G2L["18d"]["DragUDim2"] = UDim2.new(0, -25, 0, -101);
+G2L["18f"] = Instance.new("UIDragDetector", G2L["180"]);
+G2L["18f"]["DragUDim2"] = UDim2.new(0, -25, 0, -101);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy
-G2L["18e"] = Instance.new("Frame", G2L["b"]);
-G2L["18e"]["Visible"] = false;
-G2L["18e"]["ZIndex"] = 10;
-G2L["18e"]["BorderSizePixel"] = 0;
-G2L["18e"]["BackgroundColor3"] = Color3.fromRGB(75, 75, 75);
-G2L["18e"]["Size"] = UDim2.new(0.67744, 0, 0.61102, 0);
-G2L["18e"]["Position"] = UDim2.new(0.17694, 0, 0.24842, 0);
-G2L["18e"]["BorderColor3"] = Color3.fromRGB(75, 75, 75);
-G2L["18e"]["Name"] = [[KeybindThingy]];
+G2L["190"] = Instance.new("Frame", G2L["b"]);
+G2L["190"]["Visible"] = false;
+G2L["190"]["ZIndex"] = 10;
+G2L["190"]["BorderSizePixel"] = 0;
+G2L["190"]["BackgroundColor3"] = Color3.fromRGB(75, 75, 75);
+G2L["190"]["Size"] = UDim2.new(0.67744, 0, 0.61102, 0);
+G2L["190"]["Position"] = UDim2.new(0.17694, 0, 0.24842, 0);
+G2L["190"]["BorderColor3"] = Color3.fromRGB(75, 75, 75);
+G2L["190"]["Name"] = [[KeybindThingy]];
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Dragg
-G2L["18f"] = Instance.new("LocalScript", G2L["18e"]);
-G2L["18f"]["Enabled"] = false;
-G2L["18f"]["Name"] = [[Dragg]];
-G2L["18f"]["Disabled"] = true;
+G2L["191"] = Instance.new("LocalScript", G2L["190"]);
+G2L["191"]["Enabled"] = false;
+G2L["191"]["Name"] = [[Dragg]];
+G2L["191"]["Disabled"] = true;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.UICorner
-G2L["190"] = Instance.new("UICorner", G2L["18e"]);
-G2L["190"]["CornerRadius"] = UDim.new(0, 20);
+G2L["192"] = Instance.new("UICorner", G2L["190"]);
+G2L["192"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.UIStroke
-G2L["191"] = Instance.new("UIStroke", G2L["18e"]);
-G2L["191"]["Thickness"] = 3.4;
+G2L["193"] = Instance.new("UIStroke", G2L["190"]);
+G2L["193"]["Thickness"] = 3.4;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.TextLabel
-G2L["192"] = Instance.new("TextLabel", G2L["18e"]);
-G2L["192"]["TextWrapped"] = true;
-G2L["192"]["ZIndex"] = 10;
-G2L["192"]["BorderSizePixel"] = 0;
-G2L["192"]["TextSize"] = 48;
-G2L["192"]["TextScaled"] = true;
-G2L["192"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["192"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["192"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["192"]["BackgroundTransparency"] = 1;
-G2L["192"]["Size"] = UDim2.new(0.75135, 0, 0.41446, 0);
-G2L["192"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["192"]["Text"] = [[You Are On PC Your Stun Keybind Is : (Enter The Keybind)(default is z)]];
-G2L["192"]["Position"] = UDim2.new(0.15367, 0, 0.15317, 0);
+G2L["194"] = Instance.new("TextLabel", G2L["190"]);
+G2L["194"]["TextWrapped"] = true;
+G2L["194"]["ZIndex"] = 10;
+G2L["194"]["BorderSizePixel"] = 0;
+G2L["194"]["TextSize"] = 48;
+G2L["194"]["TextScaled"] = true;
+G2L["194"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["194"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["194"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["194"]["BackgroundTransparency"] = 1;
+G2L["194"]["Size"] = UDim2.new(0.75135, 0, 0.41446, 0);
+G2L["194"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["194"]["Text"] = [[You Are On PC Your Stun Keybind Is : (Enter The Keybind)(default is z)]];
+G2L["194"]["Position"] = UDim2.new(0.15367, 0, 0.15317, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.TextBox
-G2L["193"] = Instance.new("TextBox", G2L["18e"]);
-G2L["193"]["ZIndex"] = 10;
-G2L["193"]["BorderSizePixel"] = 0;
-G2L["193"]["TextWrapped"] = true;
-G2L["193"]["TextSize"] = 47;
-G2L["193"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["193"]["TextScaled"] = true;
-G2L["193"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["193"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["193"]["Size"] = UDim2.new(0.76368, 0, 0.12887, 0);
-G2L["193"]["Position"] = UDim2.new(0.11758, 0, 0.64691, 0);
-G2L["193"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["193"]["Text"] = [[ENTER THE KEYBIND DEFAULT IS "Z"]];
-G2L["193"]["BackgroundTransparency"] = 0.5;
+G2L["195"] = Instance.new("TextBox", G2L["190"]);
+G2L["195"]["ZIndex"] = 10;
+G2L["195"]["BorderSizePixel"] = 0;
+G2L["195"]["TextWrapped"] = true;
+G2L["195"]["TextSize"] = 47;
+G2L["195"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["195"]["TextScaled"] = true;
+G2L["195"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["195"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["195"]["Size"] = UDim2.new(0.76368, 0, 0.12887, 0);
+G2L["195"]["Position"] = UDim2.new(0.11758, 0, 0.64691, 0);
+G2L["195"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["195"]["Text"] = [[ENTER THE KEYBIND DEFAULT IS "Z"]];
+G2L["195"]["BackgroundTransparency"] = 0.5;
 -- Attributes
-G2L["193"]:SetAttribute([[value]], [[]]);
-G2L["193"]:SetAttribute([[canchange]], false);
+G2L["195"]:SetAttribute([[value]], [[]]);
+G2L["195"]:SetAttribute([[canchange]], false);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.TextBox.UICorner
-G2L["194"] = Instance.new("UICorner", G2L["193"]);
-G2L["194"]["CornerRadius"] = UDim.new(0, 20);
+G2L["196"] = Instance.new("UICorner", G2L["195"]);
+G2L["196"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.TextBox.TextButton
-G2L["195"] = Instance.new("TextButton", G2L["193"]);
-G2L["195"]["TextWrapped"] = true;
-G2L["195"]["BorderSizePixel"] = 0;
-G2L["195"]["TextSize"] = 14;
-G2L["195"]["TextScaled"] = true;
-G2L["195"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["195"]["BackgroundColor3"] = Color3.fromRGB(113, 113, 113);
-G2L["195"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["195"]["ZIndex"] = 10;
-G2L["195"]["Size"] = UDim2.new(0.30488, 0, 1, 0);
-G2L["195"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["195"]["Text"] = [[PRESS AFTER SETTING]];
-G2L["195"]["Position"] = UDim2.new(0.34756, 0, 1, 0);
+G2L["197"] = Instance.new("TextButton", G2L["195"]);
+G2L["197"]["TextWrapped"] = true;
+G2L["197"]["BorderSizePixel"] = 0;
+G2L["197"]["TextSize"] = 14;
+G2L["197"]["TextScaled"] = true;
+G2L["197"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["197"]["BackgroundColor3"] = Color3.fromRGB(113, 113, 113);
+G2L["197"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["197"]["ZIndex"] = 10;
+G2L["197"]["Size"] = UDim2.new(0.30488, 0, 1, 0);
+G2L["197"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["197"]["Text"] = [[PRESS AFTER SETTING]];
+G2L["197"]["Position"] = UDim2.new(0.34756, 0, 1, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.TextBox.TextButton.LocalScript
-G2L["196"] = Instance.new("LocalScript", G2L["195"]);
+G2L["198"] = Instance.new("LocalScript", G2L["197"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.TextBox.TextButton.UICorner
-G2L["197"] = Instance.new("UICorner", G2L["195"]);
-G2L["197"]["CornerRadius"] = UDim.new(0, 20);
+G2L["199"] = Instance.new("UICorner", G2L["197"]);
+G2L["199"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.UIAspectRatioConstraint
-G2L["198"] = Instance.new("UIAspectRatioConstraint", G2L["18e"]);
-G2L["198"]["AspectRatio"] = 2.21392;
+G2L["19a"] = Instance.new("UIAspectRatioConstraint", G2L["190"]);
+G2L["19a"]["AspectRatio"] = 2.21392;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.UIDragDetector
-G2L["199"] = Instance.new("UIDragDetector", G2L["18e"]);
-G2L["199"]["DragUDim2"] = UDim2.new(0, -7, 0, -8);
+G2L["19b"] = Instance.new("UIDragDetector", G2L["190"]);
+G2L["19b"]["DragUDim2"] = UDim2.new(0, -7, 0, -8);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm
-G2L["19a"] = Instance.new("Frame", G2L["18e"]);
-G2L["19a"]["ZIndex"] = 10;
-G2L["19a"]["BorderSizePixel"] = 0;
-G2L["19a"]["BackgroundColor3"] = Color3.fromRGB(196, 255, 107);
-G2L["19a"]["Size"] = UDim2.new(0.19941, 0, 0.42563, 0);
-G2L["19a"]["Position"] = UDim2.new(0.44071, -39, 0.5807, -143);
-G2L["19a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["19a"]["Name"] = [[Confirm]];
+G2L["19c"] = Instance.new("Frame", G2L["190"]);
+G2L["19c"]["ZIndex"] = 10;
+G2L["19c"]["BorderSizePixel"] = 0;
+G2L["19c"]["BackgroundColor3"] = Color3.fromRGB(196, 255, 107);
+G2L["19c"]["Size"] = UDim2.new(0.19941, 0, 0.42563, 0);
+G2L["19c"]["Position"] = UDim2.new(0.44071, -39, 0.5807, -143);
+G2L["19c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19c"]["Name"] = [[Confirm]];
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.Dragg
-G2L["19b"] = Instance.new("LocalScript", G2L["19a"]);
-G2L["19b"]["Enabled"] = false;
-G2L["19b"]["Name"] = [[Dragg]];
-G2L["19b"]["Disabled"] = true;
+G2L["19d"] = Instance.new("LocalScript", G2L["19c"]);
+G2L["19d"]["Enabled"] = false;
+G2L["19d"]["Name"] = [[Dragg]];
+G2L["19d"]["Disabled"] = true;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.LocalScript
-G2L["19c"] = Instance.new("LocalScript", G2L["19a"]);
+G2L["19e"] = Instance.new("LocalScript", G2L["19c"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.UICorner
-G2L["19d"] = Instance.new("UICorner", G2L["19a"]);
-G2L["19d"]["CornerRadius"] = UDim.new(0, 20);
+G2L["19f"] = Instance.new("UICorner", G2L["19c"]);
+G2L["19f"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.Yes
-G2L["19e"] = Instance.new("TextButton", G2L["19a"]);
-G2L["19e"]["TextWrapped"] = true;
-G2L["19e"]["BorderSizePixel"] = 0;
-G2L["19e"]["TextSize"] = 37;
-G2L["19e"]["TextScaled"] = true;
-G2L["19e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["19e"]["BackgroundColor3"] = Color3.fromRGB(81, 186, 0);
-G2L["19e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["19e"]["ZIndex"] = 10;
-G2L["19e"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
-G2L["19e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["19e"]["Text"] = [[Yes]];
-G2L["19e"]["Name"] = [[Yes]];
-G2L["19e"]["Position"] = UDim2.new(0.10037, 0, 0.6803, 0);
+G2L["1a0"] = Instance.new("TextButton", G2L["19c"]);
+G2L["1a0"]["TextWrapped"] = true;
+G2L["1a0"]["BorderSizePixel"] = 0;
+G2L["1a0"]["TextSize"] = 37;
+G2L["1a0"]["TextScaled"] = true;
+G2L["1a0"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a0"]["BackgroundColor3"] = Color3.fromRGB(81, 186, 0);
+G2L["1a0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1a0"]["ZIndex"] = 10;
+G2L["1a0"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
+G2L["1a0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a0"]["Text"] = [[Yes]];
+G2L["1a0"]["Name"] = [[Yes]];
+G2L["1a0"]["Position"] = UDim2.new(0.10037, 0, 0.6803, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.Yes.LocalScript
-G2L["19f"] = Instance.new("LocalScript", G2L["19e"]);
+G2L["1a1"] = Instance.new("LocalScript", G2L["1a0"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.Yes.UICorner
-G2L["1a0"] = Instance.new("UICorner", G2L["19e"]);
-G2L["1a0"]["CornerRadius"] = UDim.new(0, 10);
+G2L["1a2"] = Instance.new("UICorner", G2L["1a0"]);
+G2L["1a2"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.No
-G2L["1a1"] = Instance.new("TextButton", G2L["19a"]);
-G2L["1a1"]["TextWrapped"] = true;
-G2L["1a1"]["BorderSizePixel"] = 0;
-G2L["1a1"]["TextSize"] = 43;
-G2L["1a1"]["TextScaled"] = true;
-G2L["1a1"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a1"]["BackgroundColor3"] = Color3.fromRGB(135, 0, 3);
-G2L["1a1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1a1"]["ZIndex"] = 10;
-G2L["1a1"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
-G2L["1a1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a1"]["Text"] = [[No]];
-G2L["1a1"]["Name"] = [[No]];
-G2L["1a1"]["Position"] = UDim2.new(0.69888, 0, 0.6803, 0);
+G2L["1a3"] = Instance.new("TextButton", G2L["19c"]);
+G2L["1a3"]["TextWrapped"] = true;
+G2L["1a3"]["BorderSizePixel"] = 0;
+G2L["1a3"]["TextSize"] = 43;
+G2L["1a3"]["TextScaled"] = true;
+G2L["1a3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a3"]["BackgroundColor3"] = Color3.fromRGB(135, 0, 3);
+G2L["1a3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1a3"]["ZIndex"] = 10;
+G2L["1a3"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
+G2L["1a3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a3"]["Text"] = [[No]];
+G2L["1a3"]["Name"] = [[No]];
+G2L["1a3"]["Position"] = UDim2.new(0.69888, 0, 0.6803, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.No.LocalScript
-G2L["1a2"] = Instance.new("LocalScript", G2L["1a1"]);
+G2L["1a4"] = Instance.new("LocalScript", G2L["1a3"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.No.UICorner
-G2L["1a3"] = Instance.new("UICorner", G2L["1a1"]);
-G2L["1a3"]["CornerRadius"] = UDim.new(0, 10);
+G2L["1a5"] = Instance.new("UICorner", G2L["1a3"]);
+G2L["1a5"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.TextLabel
-G2L["1a4"] = Instance.new("TextLabel", G2L["19a"]);
-G2L["1a4"]["TextWrapped"] = true;
-G2L["1a4"]["ZIndex"] = 10;
-G2L["1a4"]["BorderSizePixel"] = 0;
-G2L["1a4"]["TextSize"] = 62;
-G2L["1a4"]["TextScaled"] = true;
-G2L["1a4"]["BackgroundColor3"] = Color3.fromRGB(154, 210, 0);
-G2L["1a4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1a4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a4"]["Size"] = UDim2.new(0.7446, 0, 0.53532, 0);
-G2L["1a4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a4"]["Text"] = [[Confirm?]];
-G2L["1a4"]["Position"] = UDim2.new(0.12639, 0, 0.07063, 0);
+G2L["1a6"] = Instance.new("TextLabel", G2L["19c"]);
+G2L["1a6"]["TextWrapped"] = true;
+G2L["1a6"]["ZIndex"] = 10;
+G2L["1a6"]["BorderSizePixel"] = 0;
+G2L["1a6"]["TextSize"] = 62;
+G2L["1a6"]["TextScaled"] = true;
+G2L["1a6"]["BackgroundColor3"] = Color3.fromRGB(154, 210, 0);
+G2L["1a6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1a6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a6"]["Size"] = UDim2.new(0.7446, 0, 0.53532, 0);
+G2L["1a6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a6"]["Text"] = [[Confirm?]];
+G2L["1a6"]["Position"] = UDim2.new(0.12639, 0, 0.07063, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.TextLabel.UIStroke
-G2L["1a5"] = Instance.new("UIStroke", G2L["1a4"]);
-G2L["1a5"]["Thickness"] = 3.4;
-G2L["1a5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.TextLabel.UICorner
-G2L["1a6"] = Instance.new("UICorner", G2L["1a4"]);
-G2L["1a6"]["CornerRadius"] = UDim.new(0, 14);
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.UIStroke
-G2L["1a7"] = Instance.new("UIStroke", G2L["19a"]);
+G2L["1a7"] = Instance.new("UIStroke", G2L["1a6"]);
 G2L["1a7"]["Thickness"] = 3.4;
 G2L["1a7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
+-- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.TextLabel.UICorner
+G2L["1a8"] = Instance.new("UICorner", G2L["1a6"]);
+G2L["1a8"]["CornerRadius"] = UDim.new(0, 14);
+
+
+-- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.UIStroke
+G2L["1a9"] = Instance.new("UIStroke", G2L["19c"]);
+G2L["1a9"]["Thickness"] = 3.4;
+G2L["1a9"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.UIAspectRatioConstraint
-G2L["1a8"] = Instance.new("UIAspectRatioConstraint", G2L["19a"]);
-G2L["1a8"]["AspectRatio"] = 1.00074;
+G2L["1aa"] = Instance.new("UIAspectRatioConstraint", G2L["19c"]);
+G2L["1aa"]["AspectRatio"] = 1.00074;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.UIDragDetector
-G2L["1a9"] = Instance.new("UIDragDetector", G2L["19a"]);
-G2L["1a9"]["DragUDim2"] = UDim2.new(0, -25, 0, -101);
+G2L["1ab"] = Instance.new("UIDragDetector", G2L["19c"]);
+G2L["1ab"]["DragUDim2"] = UDim2.new(0, -25, 0, -101);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK
-G2L["1aa"] = Instance.new("Frame", G2L["b"]);
-G2L["1aa"]["Visible"] = false;
-G2L["1aa"]["ZIndex"] = 10;
-G2L["1aa"]["BorderSizePixel"] = 0;
-G2L["1aa"]["BackgroundColor3"] = Color3.fromRGB(75, 75, 75);
-G2L["1aa"]["Size"] = UDim2.new(0.67744, 0, 0.61102, 0);
-G2L["1aa"]["Position"] = UDim2.new(0.17694, 0, 0.24842, 0);
-G2L["1aa"]["BorderColor3"] = Color3.fromRGB(75, 75, 75);
-G2L["1aa"]["Name"] = [[KeybindThingyForFAKEBLOCK]];
+G2L["1ac"] = Instance.new("Frame", G2L["b"]);
+G2L["1ac"]["Visible"] = false;
+G2L["1ac"]["ZIndex"] = 10;
+G2L["1ac"]["BorderSizePixel"] = 0;
+G2L["1ac"]["BackgroundColor3"] = Color3.fromRGB(75, 75, 75);
+G2L["1ac"]["Size"] = UDim2.new(0.67744, 0, 0.61102, 0);
+G2L["1ac"]["Position"] = UDim2.new(0.17694, 0, 0.24842, 0);
+G2L["1ac"]["BorderColor3"] = Color3.fromRGB(75, 75, 75);
+G2L["1ac"]["Name"] = [[KeybindThingyForFAKEBLOCK]];
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Dragg
-G2L["1ab"] = Instance.new("LocalScript", G2L["1aa"]);
-G2L["1ab"]["Enabled"] = false;
-G2L["1ab"]["Name"] = [[Dragg]];
-G2L["1ab"]["Disabled"] = true;
+G2L["1ad"] = Instance.new("LocalScript", G2L["1ac"]);
+G2L["1ad"]["Enabled"] = false;
+G2L["1ad"]["Name"] = [[Dragg]];
+G2L["1ad"]["Disabled"] = true;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.UICorner
-G2L["1ac"] = Instance.new("UICorner", G2L["1aa"]);
-G2L["1ac"]["CornerRadius"] = UDim.new(0, 20);
+G2L["1ae"] = Instance.new("UICorner", G2L["1ac"]);
+G2L["1ae"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.UIStroke
-G2L["1ad"] = Instance.new("UIStroke", G2L["1aa"]);
-G2L["1ad"]["Thickness"] = 3.4;
+G2L["1af"] = Instance.new("UIStroke", G2L["1ac"]);
+G2L["1af"]["Thickness"] = 3.4;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.TextLabel
-G2L["1ae"] = Instance.new("TextLabel", G2L["1aa"]);
-G2L["1ae"]["TextWrapped"] = true;
-G2L["1ae"]["ZIndex"] = 10;
-G2L["1ae"]["BorderSizePixel"] = 0;
-G2L["1ae"]["TextSize"] = 48;
-G2L["1ae"]["TextScaled"] = true;
-G2L["1ae"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1ae"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1ae"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1ae"]["BackgroundTransparency"] = 1;
-G2L["1ae"]["Size"] = UDim2.new(0.75135, 0, 0.41446, 0);
-G2L["1ae"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ae"]["Text"] = [[You Are On PC Your Fake Block Keybind Is : (Enter The Keybind)(default is z)]];
-G2L["1ae"]["Position"] = UDim2.new(0.15367, 0, 0.15317, 0);
+G2L["1b0"] = Instance.new("TextLabel", G2L["1ac"]);
+G2L["1b0"]["TextWrapped"] = true;
+G2L["1b0"]["ZIndex"] = 10;
+G2L["1b0"]["BorderSizePixel"] = 0;
+G2L["1b0"]["TextSize"] = 48;
+G2L["1b0"]["TextScaled"] = true;
+G2L["1b0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1b0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b0"]["BackgroundTransparency"] = 1;
+G2L["1b0"]["Size"] = UDim2.new(0.75135, 0, 0.41446, 0);
+G2L["1b0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b0"]["Text"] = [[You Are On PC Your Fake Block Keybind Is : (Enter The Keybind)(default is z)]];
+G2L["1b0"]["Position"] = UDim2.new(0.15367, 0, 0.15317, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.TextBox
-G2L["1af"] = Instance.new("TextBox", G2L["1aa"]);
-G2L["1af"]["ZIndex"] = 10;
-G2L["1af"]["BorderSizePixel"] = 0;
-G2L["1af"]["TextWrapped"] = true;
-G2L["1af"]["TextSize"] = 47;
-G2L["1af"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1af"]["TextScaled"] = true;
-G2L["1af"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1af"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1af"]["Size"] = UDim2.new(0.76368, 0, 0.12887, 0);
-G2L["1af"]["Position"] = UDim2.new(0.11758, 0, 0.64691, 0);
-G2L["1af"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1af"]["Text"] = [[ENTER THE KEYBIND DEFAULT IS "Z"]];
-G2L["1af"]["BackgroundTransparency"] = 0.5;
+G2L["1b1"] = Instance.new("TextBox", G2L["1ac"]);
+G2L["1b1"]["ZIndex"] = 10;
+G2L["1b1"]["BorderSizePixel"] = 0;
+G2L["1b1"]["TextWrapped"] = true;
+G2L["1b1"]["TextSize"] = 47;
+G2L["1b1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b1"]["TextScaled"] = true;
+G2L["1b1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1b1"]["Size"] = UDim2.new(0.76368, 0, 0.12887, 0);
+G2L["1b1"]["Position"] = UDim2.new(0.11758, 0, 0.64691, 0);
+G2L["1b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b1"]["Text"] = [[ENTER THE KEYBIND DEFAULT IS "Z"]];
+G2L["1b1"]["BackgroundTransparency"] = 0.5;
 -- Attributes
-G2L["1af"]:SetAttribute([[value]], [[]]);
-G2L["1af"]:SetAttribute([[canchange]], false);
+G2L["1b1"]:SetAttribute([[value]], [[]]);
+G2L["1b1"]:SetAttribute([[canchange]], false);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.TextBox.UICorner
-G2L["1b0"] = Instance.new("UICorner", G2L["1af"]);
-G2L["1b0"]["CornerRadius"] = UDim.new(0, 20);
+G2L["1b2"] = Instance.new("UICorner", G2L["1b1"]);
+G2L["1b2"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.TextBox.TextButton
-G2L["1b1"] = Instance.new("TextButton", G2L["1af"]);
-G2L["1b1"]["TextWrapped"] = true;
-G2L["1b1"]["BorderSizePixel"] = 0;
-G2L["1b1"]["TextSize"] = 14;
-G2L["1b1"]["TextScaled"] = true;
-G2L["1b1"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b1"]["BackgroundColor3"] = Color3.fromRGB(113, 113, 113);
-G2L["1b1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1b1"]["ZIndex"] = 10;
-G2L["1b1"]["Size"] = UDim2.new(0.30488, 0, 1, 0);
-G2L["1b1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b1"]["Text"] = [[PRESS AFTER SETTING]];
-G2L["1b1"]["Position"] = UDim2.new(0.34756, 0, 1, 0);
+G2L["1b3"] = Instance.new("TextButton", G2L["1b1"]);
+G2L["1b3"]["TextWrapped"] = true;
+G2L["1b3"]["BorderSizePixel"] = 0;
+G2L["1b3"]["TextSize"] = 14;
+G2L["1b3"]["TextScaled"] = true;
+G2L["1b3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b3"]["BackgroundColor3"] = Color3.fromRGB(113, 113, 113);
+G2L["1b3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1b3"]["ZIndex"] = 10;
+G2L["1b3"]["Size"] = UDim2.new(0.30488, 0, 1, 0);
+G2L["1b3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b3"]["Text"] = [[PRESS AFTER SETTING]];
+G2L["1b3"]["Position"] = UDim2.new(0.34756, 0, 1, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.TextBox.TextButton.LocalScript
-G2L["1b2"] = Instance.new("LocalScript", G2L["1b1"]);
+G2L["1b4"] = Instance.new("LocalScript", G2L["1b3"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.TextBox.TextButton.UICorner
-G2L["1b3"] = Instance.new("UICorner", G2L["1b1"]);
-G2L["1b3"]["CornerRadius"] = UDim.new(0, 20);
+G2L["1b5"] = Instance.new("UICorner", G2L["1b3"]);
+G2L["1b5"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.UIAspectRatioConstraint
-G2L["1b4"] = Instance.new("UIAspectRatioConstraint", G2L["1aa"]);
-G2L["1b4"]["AspectRatio"] = 2.21392;
+G2L["1b6"] = Instance.new("UIAspectRatioConstraint", G2L["1ac"]);
+G2L["1b6"]["AspectRatio"] = 2.21392;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.UIDragDetector
-G2L["1b5"] = Instance.new("UIDragDetector", G2L["1aa"]);
+G2L["1b7"] = Instance.new("UIDragDetector", G2L["1ac"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm
-G2L["1b6"] = Instance.new("Frame", G2L["1aa"]);
-G2L["1b6"]["ZIndex"] = 10;
-G2L["1b6"]["BorderSizePixel"] = 0;
-G2L["1b6"]["BackgroundColor3"] = Color3.fromRGB(196, 255, 107);
-G2L["1b6"]["Size"] = UDim2.new(0.19941, 0, 0.42563, 0);
-G2L["1b6"]["Position"] = UDim2.new(0.44071, -39, 0.5807, -143);
-G2L["1b6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b6"]["Name"] = [[Confirm]];
+G2L["1b8"] = Instance.new("Frame", G2L["1ac"]);
+G2L["1b8"]["ZIndex"] = 10;
+G2L["1b8"]["BorderSizePixel"] = 0;
+G2L["1b8"]["BackgroundColor3"] = Color3.fromRGB(196, 255, 107);
+G2L["1b8"]["Size"] = UDim2.new(0.19941, 0, 0.42563, 0);
+G2L["1b8"]["Position"] = UDim2.new(0.44071, -39, 0.5807, -143);
+G2L["1b8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b8"]["Name"] = [[Confirm]];
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.Dragg
-G2L["1b7"] = Instance.new("LocalScript", G2L["1b6"]);
-G2L["1b7"]["Enabled"] = false;
-G2L["1b7"]["Name"] = [[Dragg]];
-G2L["1b7"]["Disabled"] = true;
+G2L["1b9"] = Instance.new("LocalScript", G2L["1b8"]);
+G2L["1b9"]["Enabled"] = false;
+G2L["1b9"]["Name"] = [[Dragg]];
+G2L["1b9"]["Disabled"] = true;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.LocalScript
-G2L["1b8"] = Instance.new("LocalScript", G2L["1b6"]);
+G2L["1ba"] = Instance.new("LocalScript", G2L["1b8"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.UICorner
-G2L["1b9"] = Instance.new("UICorner", G2L["1b6"]);
-G2L["1b9"]["CornerRadius"] = UDim.new(0, 20);
+G2L["1bb"] = Instance.new("UICorner", G2L["1b8"]);
+G2L["1bb"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.Yes
-G2L["1ba"] = Instance.new("TextButton", G2L["1b6"]);
-G2L["1ba"]["TextWrapped"] = true;
-G2L["1ba"]["BorderSizePixel"] = 0;
-G2L["1ba"]["TextSize"] = 37;
-G2L["1ba"]["TextScaled"] = true;
-G2L["1ba"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ba"]["BackgroundColor3"] = Color3.fromRGB(81, 186, 0);
-G2L["1ba"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1ba"]["ZIndex"] = 10;
-G2L["1ba"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
-G2L["1ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ba"]["Text"] = [[Yes]];
-G2L["1ba"]["Name"] = [[Yes]];
-G2L["1ba"]["Position"] = UDim2.new(0.10037, 0, 0.6803, 0);
+G2L["1bc"] = Instance.new("TextButton", G2L["1b8"]);
+G2L["1bc"]["TextWrapped"] = true;
+G2L["1bc"]["BorderSizePixel"] = 0;
+G2L["1bc"]["TextSize"] = 37;
+G2L["1bc"]["TextScaled"] = true;
+G2L["1bc"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1bc"]["BackgroundColor3"] = Color3.fromRGB(81, 186, 0);
+G2L["1bc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1bc"]["ZIndex"] = 10;
+G2L["1bc"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
+G2L["1bc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1bc"]["Text"] = [[Yes]];
+G2L["1bc"]["Name"] = [[Yes]];
+G2L["1bc"]["Position"] = UDim2.new(0.10037, 0, 0.6803, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.Yes.LocalScript
-G2L["1bb"] = Instance.new("LocalScript", G2L["1ba"]);
+G2L["1bd"] = Instance.new("LocalScript", G2L["1bc"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.Yes.UICorner
-G2L["1bc"] = Instance.new("UICorner", G2L["1ba"]);
-G2L["1bc"]["CornerRadius"] = UDim.new(0, 10);
+G2L["1be"] = Instance.new("UICorner", G2L["1bc"]);
+G2L["1be"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.No
-G2L["1bd"] = Instance.new("TextButton", G2L["1b6"]);
-G2L["1bd"]["TextWrapped"] = true;
-G2L["1bd"]["BorderSizePixel"] = 0;
-G2L["1bd"]["TextSize"] = 43;
-G2L["1bd"]["TextScaled"] = true;
-G2L["1bd"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1bd"]["BackgroundColor3"] = Color3.fromRGB(135, 0, 3);
-G2L["1bd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1bd"]["ZIndex"] = 10;
-G2L["1bd"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
-G2L["1bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1bd"]["Text"] = [[No]];
-G2L["1bd"]["Name"] = [[No]];
-G2L["1bd"]["Position"] = UDim2.new(0.69888, 0, 0.6803, 0);
+G2L["1bf"] = Instance.new("TextButton", G2L["1b8"]);
+G2L["1bf"]["TextWrapped"] = true;
+G2L["1bf"]["BorderSizePixel"] = 0;
+G2L["1bf"]["TextSize"] = 43;
+G2L["1bf"]["TextScaled"] = true;
+G2L["1bf"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1bf"]["BackgroundColor3"] = Color3.fromRGB(135, 0, 3);
+G2L["1bf"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1bf"]["ZIndex"] = 10;
+G2L["1bf"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
+G2L["1bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1bf"]["Text"] = [[No]];
+G2L["1bf"]["Name"] = [[No]];
+G2L["1bf"]["Position"] = UDim2.new(0.69888, 0, 0.6803, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.No.LocalScript
-G2L["1be"] = Instance.new("LocalScript", G2L["1bd"]);
+G2L["1c0"] = Instance.new("LocalScript", G2L["1bf"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.No.UICorner
-G2L["1bf"] = Instance.new("UICorner", G2L["1bd"]);
-G2L["1bf"]["CornerRadius"] = UDim.new(0, 10);
+G2L["1c1"] = Instance.new("UICorner", G2L["1bf"]);
+G2L["1c1"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.TextLabel
-G2L["1c0"] = Instance.new("TextLabel", G2L["1b6"]);
-G2L["1c0"]["TextWrapped"] = true;
-G2L["1c0"]["ZIndex"] = 10;
-G2L["1c0"]["BorderSizePixel"] = 0;
-G2L["1c0"]["TextSize"] = 62;
-G2L["1c0"]["TextScaled"] = true;
-G2L["1c0"]["BackgroundColor3"] = Color3.fromRGB(154, 210, 0);
-G2L["1c0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1c0"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c0"]["Size"] = UDim2.new(0.7446, 0, 0.53532, 0);
-G2L["1c0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c0"]["Text"] = [[Confirm?]];
-G2L["1c0"]["Position"] = UDim2.new(0.12639, 0, 0.07063, 0);
+G2L["1c2"] = Instance.new("TextLabel", G2L["1b8"]);
+G2L["1c2"]["TextWrapped"] = true;
+G2L["1c2"]["ZIndex"] = 10;
+G2L["1c2"]["BorderSizePixel"] = 0;
+G2L["1c2"]["TextSize"] = 62;
+G2L["1c2"]["TextScaled"] = true;
+G2L["1c2"]["BackgroundColor3"] = Color3.fromRGB(154, 210, 0);
+G2L["1c2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1c2"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c2"]["Size"] = UDim2.new(0.7446, 0, 0.53532, 0);
+G2L["1c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c2"]["Text"] = [[Confirm?]];
+G2L["1c2"]["Position"] = UDim2.new(0.12639, 0, 0.07063, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.TextLabel.UIStroke
-G2L["1c1"] = Instance.new("UIStroke", G2L["1c0"]);
-G2L["1c1"]["Thickness"] = 3.4;
-G2L["1c1"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.TextLabel.UICorner
-G2L["1c2"] = Instance.new("UICorner", G2L["1c0"]);
-G2L["1c2"]["CornerRadius"] = UDim.new(0, 14);
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.UIStroke
-G2L["1c3"] = Instance.new("UIStroke", G2L["1b6"]);
+G2L["1c3"] = Instance.new("UIStroke", G2L["1c2"]);
 G2L["1c3"]["Thickness"] = 3.4;
 G2L["1c3"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
+-- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.TextLabel.UICorner
+G2L["1c4"] = Instance.new("UICorner", G2L["1c2"]);
+G2L["1c4"]["CornerRadius"] = UDim.new(0, 14);
+
+
+-- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.UIStroke
+G2L["1c5"] = Instance.new("UIStroke", G2L["1b8"]);
+G2L["1c5"]["Thickness"] = 3.4;
+G2L["1c5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.UIAspectRatioConstraint
-G2L["1c4"] = Instance.new("UIAspectRatioConstraint", G2L["1b6"]);
-G2L["1c4"]["AspectRatio"] = 1.00074;
+G2L["1c6"] = Instance.new("UIAspectRatioConstraint", G2L["1b8"]);
+G2L["1c6"]["AspectRatio"] = 1.00074;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.UIDragDetector
-G2L["1c5"] = Instance.new("UIDragDetector", G2L["1b6"]);
-G2L["1c5"]["DragUDim2"] = UDim2.new(0, -25, 0, -101);
+G2L["1c7"] = Instance.new("UIDragDetector", G2L["1b8"]);
+G2L["1c7"]["DragUDim2"] = UDim2.new(0, -25, 0, -101);
 
 
 -- StarterGui.Real Deal V2.Main.FakeBlockBTN
-G2L["1c6"] = Instance.new("TextButton", G2L["b"]);
-G2L["1c6"]["TextWrapped"] = true;
-G2L["1c6"]["BorderSizePixel"] = 0;
-G2L["1c6"]["TextSize"] = 26;
-G2L["1c6"]["AutoButtonColor"] = false;
-G2L["1c6"]["TextScaled"] = true;
-G2L["1c6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1c6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c6"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic);
-G2L["1c6"]["ZIndex"] = 123;
-G2L["1c6"]["Size"] = UDim2.new(0.05388, 0, 0.07911, 0);
-G2L["1c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c6"]["Text"] = [[BLOCK ]];
-G2L["1c6"]["Name"] = [[FakeBlockBTN]];
-G2L["1c6"]["Position"] = UDim2.new(0.44671, 0, 0.01258, 0);
+G2L["1c8"] = Instance.new("TextButton", G2L["b"]);
+G2L["1c8"]["TextWrapped"] = true;
+G2L["1c8"]["BorderSizePixel"] = 0;
+G2L["1c8"]["TextSize"] = 26;
+G2L["1c8"]["AutoButtonColor"] = false;
+G2L["1c8"]["TextScaled"] = true;
+G2L["1c8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic);
+G2L["1c8"]["ZIndex"] = 123;
+G2L["1c8"]["Size"] = UDim2.new(0.05388, 0, 0.07911, 0);
+G2L["1c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c8"]["Text"] = [[BLOCK ]];
+G2L["1c8"]["Name"] = [[FakeBlockBTN]];
+G2L["1c8"]["Position"] = UDim2.new(0.44671, 0, 0.01258, 0);
 
 
 -- StarterGui.Real Deal V2.Main.FakeBlockBTN.LocalScript
-G2L["1c7"] = Instance.new("LocalScript", G2L["1c6"]);
+G2L["1c9"] = Instance.new("LocalScript", G2L["1c8"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.FakeBlockBTN.UICorner
-G2L["1c8"] = Instance.new("UICorner", G2L["1c6"]);
-G2L["1c8"]["CornerRadius"] = UDim.new(0, 15);
+G2L["1ca"] = Instance.new("UICorner", G2L["1c8"]);
+G2L["1ca"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.Real Deal V2.Main.FakeBlockBTN.UIAspectRatioConstraint
-G2L["1c9"] = Instance.new("UIAspectRatioConstraint", G2L["1c6"]);
-G2L["1c9"]["AspectRatio"] = 1.50764;
+G2L["1cb"] = Instance.new("UIAspectRatioConstraint", G2L["1c8"]);
+G2L["1cb"]["AspectRatio"] = 1.50764;
+
+
+-- StarterGui.Real Deal V2.Main.FakeBlockBTN.UIDragDetector
+G2L["1cc"] = Instance.new("UIDragDetector", G2L["1c8"]);
+
 
 
 -- StarterGui.Real Deal V2.Main.SPINTHINGYBUTTON
-G2L["1ca"] = Instance.new("TextButton", G2L["b"]);
-G2L["1ca"]["TextWrapped"] = true;
-G2L["1ca"]["BorderSizePixel"] = 0;
-G2L["1ca"]["TextSize"] = 26;
-G2L["1ca"]["AutoButtonColor"] = false;
-G2L["1ca"]["TextScaled"] = true;
-G2L["1ca"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1ca"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ca"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic);
-G2L["1ca"]["ZIndex"] = 123;
-G2L["1ca"]["Size"] = UDim2.new(0.05388, 0, 0.07911, 0);
-G2L["1ca"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ca"]["Text"] = [[Spin]];
-G2L["1ca"]["Name"] = [[SPINTHINGYBUTTON]];
-G2L["1ca"]["Position"] = UDim2.new(0.60748, 0, 0.01101, 0);
+G2L["1cd"] = Instance.new("TextButton", G2L["b"]);
+G2L["1cd"]["TextWrapped"] = true;
+G2L["1cd"]["BorderSizePixel"] = 0;
+G2L["1cd"]["TextSize"] = 26;
+G2L["1cd"]["AutoButtonColor"] = false;
+G2L["1cd"]["TextScaled"] = true;
+G2L["1cd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1cd"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1cd"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic);
+G2L["1cd"]["ZIndex"] = 123;
+G2L["1cd"]["Size"] = UDim2.new(0.05388, 0, 0.07911, 0);
+G2L["1cd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1cd"]["Text"] = [[Spin ]];
+G2L["1cd"]["Name"] = [[SPINTHINGYBUTTON]];
+G2L["1cd"]["Position"] = UDim2.new(0.60748, 0, 0.01101, 0);
 
 
 -- StarterGui.Real Deal V2.Main.SPINTHINGYBUTTON.LocalScript
-G2L["1cb"] = Instance.new("LocalScript", G2L["1ca"]);
+G2L["1ce"] = Instance.new("LocalScript", G2L["1cd"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.SPINTHINGYBUTTON.UICorner
-G2L["1cc"] = Instance.new("UICorner", G2L["1ca"]);
-G2L["1cc"]["CornerRadius"] = UDim.new(0, 15);
+G2L["1cf"] = Instance.new("UICorner", G2L["1cd"]);
+G2L["1cf"]["CornerRadius"] = UDim.new(0, 15);
+
+
+-- StarterGui.Real Deal V2.Main.SPINTHINGYBUTTON.UIDragDetector
+G2L["1d0"] = Instance.new("UIDragDetector", G2L["1cd"]);
+
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN
-G2L["1cd"] = Instance.new("Frame", G2L["b"]);
-G2L["1cd"]["Visible"] = false;
-G2L["1cd"]["ZIndex"] = 10;
-G2L["1cd"]["BorderSizePixel"] = 0;
-G2L["1cd"]["BackgroundColor3"] = Color3.fromRGB(75, 75, 75);
-G2L["1cd"]["Size"] = UDim2.new(0.67744, 0, 0.61102, 0);
-G2L["1cd"]["Position"] = UDim2.new(0.17694, 0, 0.24842, 0);
-G2L["1cd"]["BorderColor3"] = Color3.fromRGB(75, 75, 75);
-G2L["1cd"]["Name"] = [[KeybindThingyForSPIN]];
+G2L["1d1"] = Instance.new("Frame", G2L["b"]);
+G2L["1d1"]["Visible"] = false;
+G2L["1d1"]["ZIndex"] = 10;
+G2L["1d1"]["BorderSizePixel"] = 0;
+G2L["1d1"]["BackgroundColor3"] = Color3.fromRGB(75, 75, 75);
+G2L["1d1"]["Size"] = UDim2.new(0.67744, 0, 0.61102, 0);
+G2L["1d1"]["Position"] = UDim2.new(0.17694, 0, 0.24842, 0);
+G2L["1d1"]["BorderColor3"] = Color3.fromRGB(75, 75, 75);
+G2L["1d1"]["Name"] = [[KeybindThingyForSPIN]];
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Dragg
-G2L["1ce"] = Instance.new("LocalScript", G2L["1cd"]);
-G2L["1ce"]["Enabled"] = false;
-G2L["1ce"]["Name"] = [[Dragg]];
-G2L["1ce"]["Disabled"] = true;
+G2L["1d2"] = Instance.new("LocalScript", G2L["1d1"]);
+G2L["1d2"]["Enabled"] = false;
+G2L["1d2"]["Name"] = [[Dragg]];
+G2L["1d2"]["Disabled"] = true;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.UICorner
-G2L["1cf"] = Instance.new("UICorner", G2L["1cd"]);
-G2L["1cf"]["CornerRadius"] = UDim.new(0, 20);
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.UIStroke
-G2L["1d0"] = Instance.new("UIStroke", G2L["1cd"]);
-G2L["1d0"]["Thickness"] = 3.4;
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextLabel
-G2L["1d1"] = Instance.new("TextLabel", G2L["1cd"]);
-G2L["1d1"]["TextWrapped"] = true;
-G2L["1d1"]["ZIndex"] = 10;
-G2L["1d1"]["BorderSizePixel"] = 0;
-G2L["1d1"]["TextSize"] = 48;
-G2L["1d1"]["TextScaled"] = true;
-G2L["1d1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1d1"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d1"]["BackgroundTransparency"] = 1;
-G2L["1d1"]["Size"] = UDim2.new(0.75135, 0, 0.41446, 0);
-G2L["1d1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d1"]["Text"] = [[You Are On PC Your Spin Keybind Is : (Enter The Keybind)(default is z)]];
-G2L["1d1"]["Position"] = UDim2.new(0.15367, 0, 0.15317, 0);
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextBox
-G2L["1d2"] = Instance.new("TextBox", G2L["1cd"]);
-G2L["1d2"]["ZIndex"] = 10;
-G2L["1d2"]["BorderSizePixel"] = 0;
-G2L["1d2"]["TextWrapped"] = true;
-G2L["1d2"]["TextSize"] = 47;
-G2L["1d2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d2"]["TextScaled"] = true;
-G2L["1d2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1d2"]["Size"] = UDim2.new(0.76368, 0, 0.12887, 0);
-G2L["1d2"]["Position"] = UDim2.new(0.11758, 0, 0.64691, 0);
-G2L["1d2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d2"]["Text"] = [[ENTER THE KEYBIND DEFAULT IS "Z"]];
-G2L["1d2"]["BackgroundTransparency"] = 0.5;
--- Attributes
-G2L["1d2"]:SetAttribute([[value]], [[]]);
-G2L["1d2"]:SetAttribute([[canchange]], false);
-
-
--- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextBox.UICorner
-G2L["1d3"] = Instance.new("UICorner", G2L["1d2"]);
+G2L["1d3"] = Instance.new("UICorner", G2L["1d1"]);
 G2L["1d3"]["CornerRadius"] = UDim.new(0, 20);
 
 
+-- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.UIStroke
+G2L["1d4"] = Instance.new("UIStroke", G2L["1d1"]);
+G2L["1d4"]["Thickness"] = 3.4;
+
+
+-- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextLabel
+G2L["1d5"] = Instance.new("TextLabel", G2L["1d1"]);
+G2L["1d5"]["TextWrapped"] = true;
+G2L["1d5"]["ZIndex"] = 10;
+G2L["1d5"]["BorderSizePixel"] = 0;
+G2L["1d5"]["TextSize"] = 48;
+G2L["1d5"]["TextScaled"] = true;
+G2L["1d5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1d5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d5"]["BackgroundTransparency"] = 1;
+G2L["1d5"]["Size"] = UDim2.new(0.75135, 0, 0.41446, 0);
+G2L["1d5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d5"]["Text"] = [[You Are On PC Your Spin Keybind Is : (Enter The Keybind)(default is z)]];
+G2L["1d5"]["Position"] = UDim2.new(0.15367, 0, 0.15317, 0);
+
+
+-- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextBox
+G2L["1d6"] = Instance.new("TextBox", G2L["1d1"]);
+G2L["1d6"]["ZIndex"] = 10;
+G2L["1d6"]["BorderSizePixel"] = 0;
+G2L["1d6"]["TextWrapped"] = true;
+G2L["1d6"]["TextSize"] = 47;
+G2L["1d6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d6"]["TextScaled"] = true;
+G2L["1d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1d6"]["Size"] = UDim2.new(0.76368, 0, 0.12887, 0);
+G2L["1d6"]["Position"] = UDim2.new(0.11758, 0, 0.64691, 0);
+G2L["1d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d6"]["Text"] = [[ENTER THE KEYBIND DEFAULT IS "Z"]];
+G2L["1d6"]["BackgroundTransparency"] = 0.5;
+-- Attributes
+G2L["1d6"]:SetAttribute([[value]], [[]]);
+G2L["1d6"]:SetAttribute([[canchange]], false);
+
+
+-- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextBox.UICorner
+G2L["1d7"] = Instance.new("UICorner", G2L["1d6"]);
+G2L["1d7"]["CornerRadius"] = UDim.new(0, 20);
+
+
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextBox.TextButton
-G2L["1d4"] = Instance.new("TextButton", G2L["1d2"]);
-G2L["1d4"]["TextWrapped"] = true;
-G2L["1d4"]["BorderSizePixel"] = 0;
-G2L["1d4"]["TextSize"] = 14;
-G2L["1d4"]["TextScaled"] = true;
-G2L["1d4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d4"]["BackgroundColor3"] = Color3.fromRGB(113, 113, 113);
-G2L["1d4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1d4"]["ZIndex"] = 10;
-G2L["1d4"]["Size"] = UDim2.new(0.30488, 0, 1, 0);
-G2L["1d4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d4"]["Text"] = [[PRESS AFTER SETTING]];
-G2L["1d4"]["Position"] = UDim2.new(0.34756, 0, 1, 0);
+G2L["1d8"] = Instance.new("TextButton", G2L["1d6"]);
+G2L["1d8"]["TextWrapped"] = true;
+G2L["1d8"]["BorderSizePixel"] = 0;
+G2L["1d8"]["TextSize"] = 14;
+G2L["1d8"]["TextScaled"] = true;
+G2L["1d8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d8"]["BackgroundColor3"] = Color3.fromRGB(113, 113, 113);
+G2L["1d8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1d8"]["ZIndex"] = 10;
+G2L["1d8"]["Size"] = UDim2.new(0.30488, 0, 1, 0);
+G2L["1d8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d8"]["Text"] = [[PRESS AFTER SETTING]];
+G2L["1d8"]["Position"] = UDim2.new(0.34756, 0, 1, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextBox.TextButton.LocalScript
-G2L["1d5"] = Instance.new("LocalScript", G2L["1d4"]);
+G2L["1d9"] = Instance.new("LocalScript", G2L["1d8"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextBox.TextButton.UICorner
-G2L["1d6"] = Instance.new("UICorner", G2L["1d4"]);
-G2L["1d6"]["CornerRadius"] = UDim.new(0, 20);
+G2L["1da"] = Instance.new("UICorner", G2L["1d8"]);
+G2L["1da"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.UIAspectRatioConstraint
-G2L["1d7"] = Instance.new("UIAspectRatioConstraint", G2L["1cd"]);
-G2L["1d7"]["AspectRatio"] = 2.21392;
+G2L["1db"] = Instance.new("UIAspectRatioConstraint", G2L["1d1"]);
+G2L["1db"]["AspectRatio"] = 2.21392;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.UIDragDetector
-G2L["1d8"] = Instance.new("UIDragDetector", G2L["1cd"]);
+G2L["1dc"] = Instance.new("UIDragDetector", G2L["1d1"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm
-G2L["1d9"] = Instance.new("Frame", G2L["1cd"]);
-G2L["1d9"]["ZIndex"] = 10;
-G2L["1d9"]["BorderSizePixel"] = 0;
-G2L["1d9"]["BackgroundColor3"] = Color3.fromRGB(196, 255, 107);
-G2L["1d9"]["Size"] = UDim2.new(0.19941, 0, 0.42563, 0);
-G2L["1d9"]["Position"] = UDim2.new(0.44071, -39, 0.5807, -143);
-G2L["1d9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d9"]["Name"] = [[Confirm]];
+G2L["1dd"] = Instance.new("Frame", G2L["1d1"]);
+G2L["1dd"]["ZIndex"] = 10;
+G2L["1dd"]["BorderSizePixel"] = 0;
+G2L["1dd"]["BackgroundColor3"] = Color3.fromRGB(196, 255, 107);
+G2L["1dd"]["Size"] = UDim2.new(0.19941, 0, 0.42563, 0);
+G2L["1dd"]["Position"] = UDim2.new(0.44071, -39, 0.5807, -143);
+G2L["1dd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1dd"]["Name"] = [[Confirm]];
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.Dragg
-G2L["1da"] = Instance.new("LocalScript", G2L["1d9"]);
-G2L["1da"]["Enabled"] = false;
-G2L["1da"]["Name"] = [[Dragg]];
-G2L["1da"]["Disabled"] = true;
+G2L["1de"] = Instance.new("LocalScript", G2L["1dd"]);
+G2L["1de"]["Enabled"] = false;
+G2L["1de"]["Name"] = [[Dragg]];
+G2L["1de"]["Disabled"] = true;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.LocalScript
-G2L["1db"] = Instance.new("LocalScript", G2L["1d9"]);
+G2L["1df"] = Instance.new("LocalScript", G2L["1dd"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.UICorner
-G2L["1dc"] = Instance.new("UICorner", G2L["1d9"]);
-G2L["1dc"]["CornerRadius"] = UDim.new(0, 20);
+G2L["1e0"] = Instance.new("UICorner", G2L["1dd"]);
+G2L["1e0"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.Yes
-G2L["1dd"] = Instance.new("TextButton", G2L["1d9"]);
-G2L["1dd"]["TextWrapped"] = true;
-G2L["1dd"]["BorderSizePixel"] = 0;
-G2L["1dd"]["TextSize"] = 37;
-G2L["1dd"]["TextScaled"] = true;
-G2L["1dd"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1dd"]["BackgroundColor3"] = Color3.fromRGB(81, 186, 0);
-G2L["1dd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1dd"]["ZIndex"] = 10;
-G2L["1dd"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
-G2L["1dd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1dd"]["Text"] = [[Yes]];
-G2L["1dd"]["Name"] = [[Yes]];
-G2L["1dd"]["Position"] = UDim2.new(0.10037, 0, 0.6803, 0);
+G2L["1e1"] = Instance.new("TextButton", G2L["1dd"]);
+G2L["1e1"]["TextWrapped"] = true;
+G2L["1e1"]["BorderSizePixel"] = 0;
+G2L["1e1"]["TextSize"] = 37;
+G2L["1e1"]["TextScaled"] = true;
+G2L["1e1"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e1"]["BackgroundColor3"] = Color3.fromRGB(81, 186, 0);
+G2L["1e1"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1e1"]["ZIndex"] = 10;
+G2L["1e1"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
+G2L["1e1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e1"]["Text"] = [[Yes]];
+G2L["1e1"]["Name"] = [[Yes]];
+G2L["1e1"]["Position"] = UDim2.new(0.10037, 0, 0.6803, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.Yes.LocalScript
-G2L["1de"] = Instance.new("LocalScript", G2L["1dd"]);
+G2L["1e2"] = Instance.new("LocalScript", G2L["1e1"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.Yes.UICorner
-G2L["1df"] = Instance.new("UICorner", G2L["1dd"]);
-G2L["1df"]["CornerRadius"] = UDim.new(0, 10);
+G2L["1e3"] = Instance.new("UICorner", G2L["1e1"]);
+G2L["1e3"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.No
-G2L["1e0"] = Instance.new("TextButton", G2L["1d9"]);
-G2L["1e0"]["TextWrapped"] = true;
-G2L["1e0"]["BorderSizePixel"] = 0;
-G2L["1e0"]["TextSize"] = 43;
-G2L["1e0"]["TextScaled"] = true;
-G2L["1e0"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e0"]["BackgroundColor3"] = Color3.fromRGB(135, 0, 3);
-G2L["1e0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1e0"]["ZIndex"] = 10;
-G2L["1e0"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
-G2L["1e0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e0"]["Text"] = [[No]];
-G2L["1e0"]["Name"] = [[No]];
-G2L["1e0"]["Position"] = UDim2.new(0.69888, 0, 0.6803, 0);
+G2L["1e4"] = Instance.new("TextButton", G2L["1dd"]);
+G2L["1e4"]["TextWrapped"] = true;
+G2L["1e4"]["BorderSizePixel"] = 0;
+G2L["1e4"]["TextSize"] = 43;
+G2L["1e4"]["TextScaled"] = true;
+G2L["1e4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e4"]["BackgroundColor3"] = Color3.fromRGB(135, 0, 3);
+G2L["1e4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1e4"]["ZIndex"] = 10;
+G2L["1e4"]["Size"] = UDim2.new(0.18987, 0, 0.18587, 0);
+G2L["1e4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e4"]["Text"] = [[No]];
+G2L["1e4"]["Name"] = [[No]];
+G2L["1e4"]["Position"] = UDim2.new(0.69888, 0, 0.6803, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.No.LocalScript
-G2L["1e1"] = Instance.new("LocalScript", G2L["1e0"]);
+G2L["1e5"] = Instance.new("LocalScript", G2L["1e4"]);
 
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.No.UICorner
-G2L["1e2"] = Instance.new("UICorner", G2L["1e0"]);
-G2L["1e2"]["CornerRadius"] = UDim.new(0, 10);
+G2L["1e6"] = Instance.new("UICorner", G2L["1e4"]);
+G2L["1e6"]["CornerRadius"] = UDim.new(0, 10);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.TextLabel
-G2L["1e3"] = Instance.new("TextLabel", G2L["1d9"]);
-G2L["1e3"]["TextWrapped"] = true;
-G2L["1e3"]["ZIndex"] = 10;
-G2L["1e3"]["BorderSizePixel"] = 0;
-G2L["1e3"]["TextSize"] = 62;
-G2L["1e3"]["TextScaled"] = true;
-G2L["1e3"]["BackgroundColor3"] = Color3.fromRGB(154, 210, 0);
-G2L["1e3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1e3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e3"]["Size"] = UDim2.new(0.7446, 0, 0.53532, 0);
-G2L["1e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e3"]["Text"] = [[Confirm?]];
-G2L["1e3"]["Position"] = UDim2.new(0.12639, 0, 0.07063, 0);
+G2L["1e7"] = Instance.new("TextLabel", G2L["1dd"]);
+G2L["1e7"]["TextWrapped"] = true;
+G2L["1e7"]["ZIndex"] = 10;
+G2L["1e7"]["BorderSizePixel"] = 0;
+G2L["1e7"]["TextSize"] = 62;
+G2L["1e7"]["TextScaled"] = true;
+G2L["1e7"]["BackgroundColor3"] = Color3.fromRGB(154, 210, 0);
+G2L["1e7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1e7"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e7"]["Size"] = UDim2.new(0.7446, 0, 0.53532, 0);
+G2L["1e7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e7"]["Text"] = [[Confirm?]];
+G2L["1e7"]["Position"] = UDim2.new(0.12639, 0, 0.07063, 0);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.TextLabel.UIStroke
-G2L["1e4"] = Instance.new("UIStroke", G2L["1e3"]);
-G2L["1e4"]["Thickness"] = 3.4;
-G2L["1e4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["1e8"] = Instance.new("UIStroke", G2L["1e7"]);
+G2L["1e8"]["Thickness"] = 3.4;
+G2L["1e8"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.TextLabel.UICorner
-G2L["1e5"] = Instance.new("UICorner", G2L["1e3"]);
-G2L["1e5"]["CornerRadius"] = UDim.new(0, 14);
+G2L["1e9"] = Instance.new("UICorner", G2L["1e7"]);
+G2L["1e9"]["CornerRadius"] = UDim.new(0, 14);
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.UIStroke
-G2L["1e6"] = Instance.new("UIStroke", G2L["1d9"]);
-G2L["1e6"]["Thickness"] = 3.4;
-G2L["1e6"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["1ea"] = Instance.new("UIStroke", G2L["1dd"]);
+G2L["1ea"]["Thickness"] = 3.4;
+G2L["1ea"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.UIAspectRatioConstraint
-G2L["1e7"] = Instance.new("UIAspectRatioConstraint", G2L["1d9"]);
-G2L["1e7"]["AspectRatio"] = 1.00074;
+G2L["1eb"] = Instance.new("UIAspectRatioConstraint", G2L["1dd"]);
+G2L["1eb"]["AspectRatio"] = 1.00074;
 
 
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.UIDragDetector
-G2L["1e8"] = Instance.new("UIDragDetector", G2L["1d9"]);
-G2L["1e8"]["DragUDim2"] = UDim2.new(0, -25, 0, -101);
+G2L["1ec"] = Instance.new("UIDragDetector", G2L["1dd"]);
+G2L["1ec"]["DragUDim2"] = UDim2.new(0, -25, 0, -101);
 
 
 -- StarterGui.Real Deal V2.KeySystem
-G2L["1e9"] = Instance.new("Folder", G2L["1"]);
-G2L["1e9"]["Name"] = [[KeySystem]];
+G2L["1ed"] = Instance.new("Folder", G2L["1"]);
+G2L["1ed"]["Name"] = [[KeySystem]];
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup
-G2L["1ea"] = Instance.new("CanvasGroup", G2L["1e9"]);
-G2L["1ea"]["Visible"] = false;
-G2L["1ea"]["BorderSizePixel"] = 0;
-G2L["1ea"]["BackgroundColor3"] = Color3.fromRGB(4, 49, 40);
-G2L["1ea"]["Size"] = UDim2.new(0.1925, 0, 0.42944, 0);
-G2L["1ea"]["Position"] = UDim2.new(0.58098, 0, 0.28055, 0);
-G2L["1ea"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1ee"] = Instance.new("CanvasGroup", G2L["1ed"]);
+G2L["1ee"]["Visible"] = false;
+G2L["1ee"]["BorderSizePixel"] = 0;
+G2L["1ee"]["BackgroundColor3"] = Color3.fromRGB(4, 49, 40);
+G2L["1ee"]["Size"] = UDim2.new(0.1925, 0, 0.42944, 0);
+G2L["1ee"]["Position"] = UDim2.new(0.58098, 0, 0.28055, 0);
+G2L["1ee"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.UICorner
-G2L["1eb"] = Instance.new("UICorner", G2L["1ea"]);
-G2L["1eb"]["CornerRadius"] = UDim.new(0, 16);
+G2L["1ef"] = Instance.new("UICorner", G2L["1ee"]);
+G2L["1ef"]["CornerRadius"] = UDim.new(0, 16);
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.UIStroke
-G2L["1ec"] = Instance.new("UIStroke", G2L["1ea"]);
+G2L["1f0"] = Instance.new("UIStroke", G2L["1ee"]);
 
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.TextLabel
-G2L["1ed"] = Instance.new("TextLabel", G2L["1ea"]);
-G2L["1ed"]["TextWrapped"] = true;
-G2L["1ed"]["BorderSizePixel"] = 0;
-G2L["1ed"]["TextSize"] = 14;
-G2L["1ed"]["TextScaled"] = true;
-G2L["1ed"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1ed"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1ed"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ed"]["BackgroundTransparency"] = 1;
-G2L["1ed"]["Size"] = UDim2.new(0.63091, 0, 0.19455, 0);
-G2L["1ed"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ed"]["Text"] = [[Enter Key:]];
-G2L["1ed"]["Position"] = UDim2.new(0.20505, 0, 0.07393, 0);
+G2L["1f1"] = Instance.new("TextLabel", G2L["1ee"]);
+G2L["1f1"]["TextWrapped"] = true;
+G2L["1f1"]["BorderSizePixel"] = 0;
+G2L["1f1"]["TextSize"] = 14;
+G2L["1f1"]["TextScaled"] = true;
+G2L["1f1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f1"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1f1"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f1"]["BackgroundTransparency"] = 1;
+G2L["1f1"]["Size"] = UDim2.new(0.63091, 0, 0.19455, 0);
+G2L["1f1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f1"]["Text"] = [[Enter Key:]];
+G2L["1f1"]["Position"] = UDim2.new(0.20505, 0, 0.07393, 0);
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.TextBox
-G2L["1ee"] = Instance.new("TextBox", G2L["1ea"]);
-G2L["1ee"]["BorderSizePixel"] = 0;
-G2L["1ee"]["TextWrapped"] = true;
-G2L["1ee"]["TextSize"] = 14;
-G2L["1ee"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ee"]["TextScaled"] = true;
-G2L["1ee"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1ee"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1ee"]["Size"] = UDim2.new(0.63091, 0, 0.19455, 0);
-G2L["1ee"]["Position"] = UDim2.new(0.18297, 0, 0.49027, 0);
-G2L["1ee"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ee"]["Text"] = [[]];
+G2L["1f2"] = Instance.new("TextBox", G2L["1ee"]);
+G2L["1f2"]["BorderSizePixel"] = 0;
+G2L["1f2"]["TextWrapped"] = true;
+G2L["1f2"]["TextSize"] = 14;
+G2L["1f2"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f2"]["TextScaled"] = true;
+G2L["1f2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f2"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1f2"]["Size"] = UDim2.new(0.63091, 0, 0.19455, 0);
+G2L["1f2"]["Position"] = UDim2.new(0.18297, 0, 0.49027, 0);
+G2L["1f2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f2"]["Text"] = [[]];
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.TextBox.TextButton
-G2L["1ef"] = Instance.new("TextButton", G2L["1ee"]);
-G2L["1ef"]["TextWrapped"] = true;
-G2L["1ef"]["BorderSizePixel"] = 0;
-G2L["1ef"]["TextSize"] = 14;
-G2L["1ef"]["TextScaled"] = true;
-G2L["1ef"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ef"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1ef"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1ef"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["1ef"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1ef"]["Text"] = [[ENTER]];
-G2L["1ef"]["Position"] = UDim2.new(0.25, 0, 1, 0);
+G2L["1f3"] = Instance.new("TextButton", G2L["1f2"]);
+G2L["1f3"]["TextWrapped"] = true;
+G2L["1f3"]["BorderSizePixel"] = 0;
+G2L["1f3"]["TextSize"] = 14;
+G2L["1f3"]["TextScaled"] = true;
+G2L["1f3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f3"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1f3"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["1f3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f3"]["Text"] = [[ENTER]];
+G2L["1f3"]["Position"] = UDim2.new(0.25, 0, 1, 0);
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.TextBox.TextButton.LocalScript
-G2L["1f0"] = Instance.new("LocalScript", G2L["1ef"]);
+G2L["1f4"] = Instance.new("LocalScript", G2L["1f3"]);
 
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.TextBox.TextButton.UIStroke
-G2L["1f1"] = Instance.new("UIStroke", G2L["1ef"]);
-G2L["1f1"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["1f5"] = Instance.new("UIStroke", G2L["1f3"]);
+G2L["1f5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.TextBox.TextButton.UICorner
-G2L["1f2"] = Instance.new("UICorner", G2L["1ef"]);
-G2L["1f2"]["CornerRadius"] = UDim.new(0, 16);
+G2L["1f6"] = Instance.new("UICorner", G2L["1f3"]);
+G2L["1f6"]["CornerRadius"] = UDim.new(0, 16);
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.TextBox.UIStroke
-G2L["1f3"] = Instance.new("UIStroke", G2L["1ee"]);
-G2L["1f3"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["1f7"] = Instance.new("UIStroke", G2L["1f2"]);
+G2L["1f7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.TextBox.UICorner
-G2L["1f4"] = Instance.new("UICorner", G2L["1ee"]);
-G2L["1f4"]["CornerRadius"] = UDim.new(0, 16);
+G2L["1f8"] = Instance.new("UICorner", G2L["1f2"]);
+G2L["1f8"]["CornerRadius"] = UDim.new(0, 16);
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.UIAspectRatioConstraint
-G2L["1f5"] = Instance.new("UIAspectRatioConstraint", G2L["1ea"]);
-G2L["1f5"]["AspectRatio"] = 1.23346;
+G2L["1f9"] = Instance.new("UIAspectRatioConstraint", G2L["1ee"]);
+G2L["1f9"]["AspectRatio"] = 1.23346;
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.UIDragDetector
-G2L["1f6"] = Instance.new("UIDragDetector", G2L["1ea"]);
+G2L["1fa"] = Instance.new("UIDragDetector", G2L["1ee"]);
 
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.Close
-G2L["1f7"] = Instance.new("TextButton", G2L["1ea"]);
-G2L["1f7"]["TextWrapped"] = true;
-G2L["1f7"]["BorderSizePixel"] = 0;
-G2L["1f7"]["TextSize"] = 14;
-G2L["1f7"]["TextScaled"] = true;
-G2L["1f7"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1f7"]["BackgroundColor3"] = Color3.fromRGB(255, 25, 25);
-G2L["1f7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1f7"]["Size"] = UDim2.new(0.08651, 0, 0.84425, 0);
-G2L["1f7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1f7"]["Text"] = [[X]];
-G2L["1f7"]["Name"] = [[Close]];
-G2L["1f7"]["Position"] = UDim2.new(0.89822, 0, 0.07449, 0);
+G2L["1fb"] = Instance.new("TextButton", G2L["1ee"]);
+G2L["1fb"]["TextWrapped"] = true;
+G2L["1fb"]["BorderSizePixel"] = 0;
+G2L["1fb"]["TextSize"] = 14;
+G2L["1fb"]["TextScaled"] = true;
+G2L["1fb"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1fb"]["BackgroundColor3"] = Color3.fromRGB(255, 25, 25);
+G2L["1fb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1fb"]["Size"] = UDim2.new(0.08651, 0, 0.84425, 0);
+G2L["1fb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1fb"]["Text"] = [[X]];
+G2L["1fb"]["Name"] = [[Close]];
+G2L["1fb"]["Position"] = UDim2.new(0.89822, 0, 0.07449, 0);
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.Close.LocalScript
-G2L["1f8"] = Instance.new("LocalScript", G2L["1f7"]);
+G2L["1fc"] = Instance.new("LocalScript", G2L["1fb"]);
 
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.Close.UICorner
-G2L["1f9"] = Instance.new("UICorner", G2L["1f7"]);
-G2L["1f9"]["CornerRadius"] = UDim.new(1, 0);
+G2L["1fd"] = Instance.new("UICorner", G2L["1fb"]);
+G2L["1fd"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.Close.UIStroke
-G2L["1fa"] = Instance.new("UIStroke", G2L["1f7"]);
-G2L["1fa"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["1fe"] = Instance.new("UIStroke", G2L["1fb"]);
+G2L["1fe"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.Close.UIAspectRatioConstraint
-G2L["1fb"] = Instance.new("UIAspectRatioConstraint", G2L["1f7"]);
+G2L["1ff"] = Instance.new("UIAspectRatioConstraint", G2L["1fb"]);
 
 
 
 -- StarterGui.Real Deal V2.Warning
-G2L["1fc"] = Instance.new("CanvasGroup", G2L["1"]);
-G2L["1fc"]["Visible"] = false;
-G2L["1fc"]["ZIndex"] = 123123123;
-G2L["1fc"]["BorderSizePixel"] = 0;
-G2L["1fc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1fc"]["Size"] = UDim2.new(0.38033, 0, 0.53532, 0);
-G2L["1fc"]["Position"] = UDim2.new(0.54344, 0, 0.10832, 0);
-G2L["1fc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1fc"]["Name"] = [[Warning]];
+G2L["200"] = Instance.new("CanvasGroup", G2L["1"]);
+G2L["200"]["Visible"] = false;
+G2L["200"]["ZIndex"] = 123123123;
+G2L["200"]["BorderSizePixel"] = 0;
+G2L["200"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["200"]["Size"] = UDim2.new(0.38033, 0, 0.53532, 0);
+G2L["200"]["Position"] = UDim2.new(0.54344, 0, 0.10832, 0);
+G2L["200"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["200"]["Name"] = [[Warning]];
 
 
 -- StarterGui.Real Deal V2.Warning.TextButton
-G2L["1fd"] = Instance.new("TextButton", G2L["1fc"]);
-G2L["1fd"]["TextWrapped"] = true;
-G2L["1fd"]["BorderSizePixel"] = 0;
-G2L["1fd"]["TextSize"] = 14;
-G2L["1fd"]["TextScaled"] = true;
-G2L["1fd"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1fd"]["BackgroundColor3"] = Color3.fromRGB(255, 248, 27);
-G2L["1fd"]["FontFace"] = Font.new([[rbxasset://fonts/families/LuckiestGuy.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1fd"]["Size"] = UDim2.new(1, 0, 0.11646, 0);
-G2L["1fd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1fd"]["Text"] = [[OKAY]];
-G2L["1fd"]["Position"] = UDim2.new(0, 0, 0.88354, 0);
-
-
--- StarterGui.Real Deal V2.Warning.TextButton.LocalScript
-G2L["1fe"] = Instance.new("LocalScript", G2L["1fd"]);
-
-
-
--- StarterGui.Real Deal V2.Warning.UIAspectRatioConstraint
-G2L["1ff"] = Instance.new("UIAspectRatioConstraint", G2L["1fc"]);
-G2L["1ff"]["AspectRatio"] = 1.23467;
-
-
--- StarterGui.Real Deal V2.Warning.UICorner
-G2L["200"] = Instance.new("UICorner", G2L["1fc"]);
-G2L["200"]["CornerRadius"] = UDim.new(0, 20);
-
-
--- StarterGui.Real Deal V2.Warning.TextLabel
-G2L["201"] = Instance.new("TextLabel", G2L["1fc"]);
+G2L["201"] = Instance.new("TextButton", G2L["200"]);
 G2L["201"]["TextWrapped"] = true;
 G2L["201"]["BorderSizePixel"] = 0;
 G2L["201"]["TextSize"] = 14;
 G2L["201"]["TextScaled"] = true;
-G2L["201"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["201"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["201"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["201"]["Size"] = UDim2.new(1, 0, 0.886, 0);
+G2L["201"]["BackgroundColor3"] = Color3.fromRGB(255, 248, 27);
+G2L["201"]["FontFace"] = Font.new([[rbxasset://fonts/families/LuckiestGuy.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["201"]["Size"] = UDim2.new(1, 0, 0.11646, 0);
 G2L["201"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["201"]["Text"] = [[]];
-G2L["201"]["Position"] = UDim2.new(0, 0, -0.003, 0);
+G2L["201"]["Text"] = [[OKAY]];
+G2L["201"]["Position"] = UDim2.new(0, 0, 0.88354, 0);
 
 
--- StarterGui.Real Deal V2.Warning.TextLabel.LocalScript
+-- StarterGui.Real Deal V2.Warning.TextButton.LocalScript
 G2L["202"] = Instance.new("LocalScript", G2L["201"]);
 
 
 
+-- StarterGui.Real Deal V2.Warning.UIAspectRatioConstraint
+G2L["203"] = Instance.new("UIAspectRatioConstraint", G2L["200"]);
+G2L["203"]["AspectRatio"] = 1.23467;
+
+
+-- StarterGui.Real Deal V2.Warning.UICorner
+G2L["204"] = Instance.new("UICorner", G2L["200"]);
+G2L["204"]["CornerRadius"] = UDim.new(0, 20);
+
+
+-- StarterGui.Real Deal V2.Warning.TextLabel
+G2L["205"] = Instance.new("TextLabel", G2L["200"]);
+G2L["205"]["TextWrapped"] = true;
+G2L["205"]["BorderSizePixel"] = 0;
+G2L["205"]["TextSize"] = 14;
+G2L["205"]["TextScaled"] = true;
+G2L["205"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["205"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["205"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["205"]["Size"] = UDim2.new(1, 0, 0.886, 0);
+G2L["205"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["205"]["Text"] = [[]];
+G2L["205"]["Position"] = UDim2.new(0, 0, -0.003, 0);
+
+
+-- StarterGui.Real Deal V2.Warning.TextLabel.LocalScript
+G2L["206"] = Instance.new("LocalScript", G2L["205"]);
+
+
+
 -- StarterGui.Real Deal V2.THESEIDOTS
-G2L["203"] = Instance.new("Folder", G2L["1"]);
-G2L["203"]["Name"] = [[THESEIDOTS]];
+G2L["207"] = Instance.new("Folder", G2L["1"]);
+G2L["207"]["Name"] = [[THESEIDOTS]];
 
 
 -- StarterGui.Real Deal V2.THESEIDOTS.NOTURBUSSINESS
-G2L["204"] = Instance.new("LocalScript", G2L["203"]);
-G2L["204"]["Name"] = [[NOTURBUSSINESS]];
+G2L["208"] = Instance.new("LocalScript", G2L["207"]);
+G2L["208"]["Name"] = [[NOTURBUSSINESS]];
 
 
 -- StarterGui.Real Deal V2.THESEIDOTS.CanvasGroup
-G2L["205"] = Instance.new("CanvasGroup", G2L["203"]);
-G2L["205"]["Visible"] = false;
-G2L["205"]["BorderSizePixel"] = 0;
-G2L["205"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["205"]["GroupColor3"] = Color3.fromRGB(73, 73, 73);
-G2L["205"]["Size"] = UDim2.new(0.32446, 0, 0.45055, 0);
-G2L["205"]["Position"] = UDim2.new(0.33777, 0, 0.28414, 0);
-G2L["205"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["209"] = Instance.new("CanvasGroup", G2L["207"]);
+G2L["209"]["Visible"] = false;
+G2L["209"]["BorderSizePixel"] = 0;
+G2L["209"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["209"]["GroupColor3"] = Color3.fromRGB(73, 73, 73);
+G2L["209"]["Size"] = UDim2.new(0.32446, 0, 0.45055, 0);
+G2L["209"]["Position"] = UDim2.new(0.33777, 0, 0.28414, 0);
+G2L["209"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 
 -- StarterGui.Real Deal V2.THESEIDOTS.CanvasGroup.UICorner
-G2L["206"] = Instance.new("UICorner", G2L["205"]);
-G2L["206"]["CornerRadius"] = UDim.new(0, 16);
+G2L["20a"] = Instance.new("UICorner", G2L["209"]);
+G2L["20a"]["CornerRadius"] = UDim.new(0, 16);
 
 
 -- StarterGui.Real Deal V2.THESEIDOTS.CanvasGroup.TextLabel
-G2L["207"] = Instance.new("TextLabel", G2L["205"]);
-G2L["207"]["TextWrapped"] = true;
-G2L["207"]["BorderSizePixel"] = 0;
-G2L["207"]["TextSize"] = 14;
-G2L["207"]["TextScaled"] = true;
-G2L["207"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["207"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["207"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["207"]["BackgroundTransparency"] = 1;
-G2L["207"]["Size"] = UDim2.new(1, 0, 0.88139, 0);
-G2L["207"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["207"]["Text"] = [[HEY NINCOMPOOP YOUR USING A SKIDDED VERSION OF MY SCRIPT THAT I MADE WITH MY BLOOD SWEAT AND TEARS USE THAT IT IS THE UPDATED BEST SCRIPT]];
-G2L["207"]["Position"] = UDim2.new(0, 0, 0, 0);
+G2L["20b"] = Instance.new("TextLabel", G2L["209"]);
+G2L["20b"]["TextWrapped"] = true;
+G2L["20b"]["BorderSizePixel"] = 0;
+G2L["20b"]["TextSize"] = 14;
+G2L["20b"]["TextScaled"] = true;
+G2L["20b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["20b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20b"]["BackgroundTransparency"] = 1;
+G2L["20b"]["Size"] = UDim2.new(1, 0, 0.88139, 0);
+G2L["20b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20b"]["Text"] = [[HEY NINCOMPOOP YOUR USING A SKIDDED VERSION OF MY SCRIPT THAT I MADE WITH MY BLOOD SWEAT AND TEARS USE THAT IT IS THE UPDATED BEST SCRIPT]];
+G2L["20b"]["Position"] = UDim2.new(0, 0, 0, 0);
 
 
 -- StarterGui.Real Deal V2.THESEIDOTS.CanvasGroup.UIAspectRatioConstraint
-G2L["208"] = Instance.new("UIAspectRatioConstraint", G2L["205"]);
-G2L["208"]["AspectRatio"] = 1.65281;
+G2L["20c"] = Instance.new("UIAspectRatioConstraint", G2L["209"]);
+G2L["20c"]["AspectRatio"] = 1.65281;
 
 
 -- StarterGui.Real Deal V2.THESEIDOTS.CanvasGroup.TextButton
-G2L["209"] = Instance.new("TextButton", G2L["205"]);
-G2L["209"]["TextWrapped"] = true;
-G2L["209"]["BorderSizePixel"] = 0;
-G2L["209"]["TextSize"] = 14;
-G2L["209"]["TextScaled"] = true;
-G2L["209"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["209"]["BackgroundColor3"] = Color3.fromRGB(188, 255, 0);
-G2L["209"]["FontFace"] = Font.new([[rbxasset://fonts/families/LuckiestGuy.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["209"]["Size"] = UDim2.new(0.99781, 0, 0.11646, 0);
-G2L["209"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["209"]["Text"] = [[OKAY]];
-G2L["209"]["Position"] = UDim2.new(-0, 0, 0.88139, 0);
+G2L["20d"] = Instance.new("TextButton", G2L["209"]);
+G2L["20d"]["TextWrapped"] = true;
+G2L["20d"]["BorderSizePixel"] = 0;
+G2L["20d"]["TextSize"] = 14;
+G2L["20d"]["TextScaled"] = true;
+G2L["20d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20d"]["BackgroundColor3"] = Color3.fromRGB(188, 255, 0);
+G2L["20d"]["FontFace"] = Font.new([[rbxasset://fonts/families/LuckiestGuy.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["20d"]["Size"] = UDim2.new(0.99781, 0, 0.11646, 0);
+G2L["20d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20d"]["Text"] = [[OKAY]];
+G2L["20d"]["Position"] = UDim2.new(-0, 0, 0.88139, 0);
 
 
 -- StarterGui.Real Deal V2.THESEIDOTS.CanvasGroup.TextButton.LocalScript
-G2L["20a"] = Instance.new("LocalScript", G2L["209"]);
+G2L["20e"] = Instance.new("LocalScript", G2L["20d"]);
 
 
 
 -- StarterGui.Real Deal V2.THESEIDOTS.CanvasGroup.TextButton.UIStroke
-G2L["20b"] = Instance.new("UIStroke", G2L["209"]);
-G2L["20b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["20f"] = Instance.new("UIStroke", G2L["20d"]);
+G2L["20f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.Real Deal V2.THESEIDOTS.CanvasGroup.UIDragDetector
-G2L["20c"] = Instance.new("UIDragDetector", G2L["205"]);
+G2L["210"] = Instance.new("UIDragDetector", G2L["209"]);
 
 
 
 -- StarterGui.Real Deal V2.PremiumMode
-G2L["20d"] = Instance.new("Folder", G2L["1"]);
-G2L["20d"]["Name"] = [[PremiumMode]];
+G2L["211"] = Instance.new("Folder", G2L["1"]);
+G2L["211"]["Name"] = [[PremiumMode]];
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup
-G2L["20e"] = Instance.new("CanvasGroup", G2L["20d"]);
-G2L["20e"]["Visible"] = false;
-G2L["20e"]["BorderSizePixel"] = 0;
-G2L["20e"]["BackgroundColor3"] = Color3.fromRGB(4, 49, 40);
-G2L["20e"]["Size"] = UDim2.new(0.1925, 0, 0.42944, 0);
-G2L["20e"]["Position"] = UDim2.new(0.58098, 0, 0.28055, 0);
-G2L["20e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["212"] = Instance.new("CanvasGroup", G2L["211"]);
+G2L["212"]["Visible"] = false;
+G2L["212"]["BorderSizePixel"] = 0;
+G2L["212"]["BackgroundColor3"] = Color3.fromRGB(4, 49, 40);
+G2L["212"]["Size"] = UDim2.new(0.1925, 0, 0.42944, 0);
+G2L["212"]["Position"] = UDim2.new(0.58098, 0, 0.28055, 0);
+G2L["212"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.UICorner
-G2L["20f"] = Instance.new("UICorner", G2L["20e"]);
-G2L["20f"]["CornerRadius"] = UDim.new(0, 16);
+G2L["213"] = Instance.new("UICorner", G2L["212"]);
+G2L["213"]["CornerRadius"] = UDim.new(0, 16);
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.UIStroke
-G2L["210"] = Instance.new("UIStroke", G2L["20e"]);
+G2L["214"] = Instance.new("UIStroke", G2L["212"]);
 
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.TextLabel
-G2L["211"] = Instance.new("TextLabel", G2L["20e"]);
-G2L["211"]["TextWrapped"] = true;
-G2L["211"]["BorderSizePixel"] = 0;
-G2L["211"]["TextSize"] = 14;
-G2L["211"]["TextScaled"] = true;
-G2L["211"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["211"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["211"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["211"]["BackgroundTransparency"] = 1;
-G2L["211"]["Size"] = UDim2.new(0.63091, 0, 0.19455, 0);
-G2L["211"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["211"]["Text"] = [[Enter Password]];
-G2L["211"]["Position"] = UDim2.new(0.20505, 0, 0.07393, 0);
+G2L["215"] = Instance.new("TextLabel", G2L["212"]);
+G2L["215"]["TextWrapped"] = true;
+G2L["215"]["BorderSizePixel"] = 0;
+G2L["215"]["TextSize"] = 14;
+G2L["215"]["TextScaled"] = true;
+G2L["215"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["215"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["215"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["215"]["BackgroundTransparency"] = 1;
+G2L["215"]["Size"] = UDim2.new(0.63091, 0, 0.19455, 0);
+G2L["215"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["215"]["Text"] = [[Enter Password]];
+G2L["215"]["Position"] = UDim2.new(0.20505, 0, 0.07393, 0);
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.TextBox
-G2L["212"] = Instance.new("TextBox", G2L["20e"]);
-G2L["212"]["BorderSizePixel"] = 0;
-G2L["212"]["TextWrapped"] = true;
-G2L["212"]["TextSize"] = 14;
-G2L["212"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["212"]["TextScaled"] = true;
-G2L["212"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["212"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["212"]["Size"] = UDim2.new(0.63091, 0, 0.19455, 0);
-G2L["212"]["Position"] = UDim2.new(0.18297, 0, 0.49027, 0);
-G2L["212"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["212"]["Text"] = [[]];
+G2L["216"] = Instance.new("TextBox", G2L["212"]);
+G2L["216"]["BorderSizePixel"] = 0;
+G2L["216"]["TextWrapped"] = true;
+G2L["216"]["TextSize"] = 14;
+G2L["216"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["216"]["TextScaled"] = true;
+G2L["216"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["216"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["216"]["Size"] = UDim2.new(0.63091, 0, 0.19455, 0);
+G2L["216"]["Position"] = UDim2.new(0.18297, 0, 0.49027, 0);
+G2L["216"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["216"]["Text"] = [[]];
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.TextBox.TextButton
-G2L["213"] = Instance.new("TextButton", G2L["212"]);
-G2L["213"]["TextWrapped"] = true;
-G2L["213"]["BorderSizePixel"] = 0;
-G2L["213"]["TextSize"] = 14;
-G2L["213"]["TextScaled"] = true;
-G2L["213"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["213"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["213"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["213"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["213"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["213"]["Text"] = [[ENTER]];
-G2L["213"]["Position"] = UDim2.new(0.25, 0, 1, 0);
+G2L["217"] = Instance.new("TextButton", G2L["216"]);
+G2L["217"]["TextWrapped"] = true;
+G2L["217"]["BorderSizePixel"] = 0;
+G2L["217"]["TextSize"] = 14;
+G2L["217"]["TextScaled"] = true;
+G2L["217"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["217"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["217"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["217"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["217"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["217"]["Text"] = [[ENTER]];
+G2L["217"]["Position"] = UDim2.new(0.25, 0, 1, 0);
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.TextBox.TextButton.UIStroke
-G2L["214"] = Instance.new("UIStroke", G2L["213"]);
-G2L["214"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["218"] = Instance.new("UIStroke", G2L["217"]);
+G2L["218"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.TextBox.TextButton.UICorner
-G2L["215"] = Instance.new("UICorner", G2L["213"]);
-G2L["215"]["CornerRadius"] = UDim.new(0, 16);
+G2L["219"] = Instance.new("UICorner", G2L["217"]);
+G2L["219"]["CornerRadius"] = UDim.new(0, 16);
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.TextBox.UIStroke
-G2L["216"] = Instance.new("UIStroke", G2L["212"]);
-G2L["216"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["21a"] = Instance.new("UIStroke", G2L["216"]);
+G2L["21a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.TextBox.UICorner
-G2L["217"] = Instance.new("UICorner", G2L["212"]);
-G2L["217"]["CornerRadius"] = UDim.new(0, 16);
+G2L["21b"] = Instance.new("UICorner", G2L["216"]);
+G2L["21b"]["CornerRadius"] = UDim.new(0, 16);
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.UIAspectRatioConstraint
-G2L["218"] = Instance.new("UIAspectRatioConstraint", G2L["20e"]);
-G2L["218"]["AspectRatio"] = 1.23346;
+G2L["21c"] = Instance.new("UIAspectRatioConstraint", G2L["212"]);
+G2L["21c"]["AspectRatio"] = 1.23346;
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.UIDragDetector
-G2L["219"] = Instance.new("UIDragDetector", G2L["20e"]);
+G2L["21d"] = Instance.new("UIDragDetector", G2L["212"]);
 
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.Close
-G2L["21a"] = Instance.new("TextButton", G2L["20e"]);
-G2L["21a"]["TextWrapped"] = true;
-G2L["21a"]["BorderSizePixel"] = 0;
-G2L["21a"]["TextSize"] = 14;
-G2L["21a"]["TextScaled"] = true;
-G2L["21a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["21a"]["BackgroundColor3"] = Color3.fromRGB(255, 25, 25);
-G2L["21a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["21a"]["Size"] = UDim2.new(0.08651, 0, 0.84425, 0);
-G2L["21a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["21a"]["Text"] = [[X]];
-G2L["21a"]["Name"] = [[Close]];
-G2L["21a"]["Position"] = UDim2.new(0.89822, 0, 0.07449, 0);
+G2L["21e"] = Instance.new("TextButton", G2L["212"]);
+G2L["21e"]["TextWrapped"] = true;
+G2L["21e"]["BorderSizePixel"] = 0;
+G2L["21e"]["TextSize"] = 14;
+G2L["21e"]["TextScaled"] = true;
+G2L["21e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21e"]["BackgroundColor3"] = Color3.fromRGB(255, 25, 25);
+G2L["21e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["21e"]["Size"] = UDim2.new(0.08651, 0, 0.84425, 0);
+G2L["21e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21e"]["Text"] = [[X]];
+G2L["21e"]["Name"] = [[Close]];
+G2L["21e"]["Position"] = UDim2.new(0.89822, 0, 0.07449, 0);
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.Close.UICorner
-G2L["21b"] = Instance.new("UICorner", G2L["21a"]);
-G2L["21b"]["CornerRadius"] = UDim.new(1, 0);
+G2L["21f"] = Instance.new("UICorner", G2L["21e"]);
+G2L["21f"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.Close.UIStroke
-G2L["21c"] = Instance.new("UIStroke", G2L["21a"]);
-G2L["21c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["220"] = Instance.new("UIStroke", G2L["21e"]);
+G2L["220"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.Real Deal V2.PremiumMode.CanvasGroup.Close.UIAspectRatioConstraint
-G2L["21d"] = Instance.new("UIAspectRatioConstraint", G2L["21a"]);
+G2L["221"] = Instance.new("UIAspectRatioConstraint", G2L["21e"]);
 
 
 
@@ -7072,42 +7092,14 @@ local script = G2L["a8"];
 	
 	local button = script.Parent.Parent:WaitForChild("ImageButton")
 	local exitButton = script.Parent.Parent.Parent:WaitForChild("Exit"):WaitForChild("ImageButton")
+	local Clip
+	local Noclipping
+	local speaker = game.Players.LocalPlayer
 	
 	button:SetAttribute("toggle", false)
 	button.Image = "http://www.roblox.com/asset/?id=76864339841735"
 	
-	local noclipEnabled = false
 	
-	-- === MAIN NOCLIP LOOP ===
-	RunService.Stepped:Connect(function()
-		if noclipEnabled then
-			local char = player.Character
-			if char then
-				for _, part in ipairs(char:GetDescendants()) do
-					-- DO NOT noclip HumanoidRootPart
-					if part:IsA("BasePart") and part.Name ~= "HumanoidRootPart" then
-						part.CanCollide = false
-					end
-				end
-			end
-		end
-	end)
-	
-	-- === APPLY NOCLIP ON RESPAWN ===
-	player.CharacterAdded:Connect(function(char)
-		char:WaitForChild("HumanoidRootPart")
-	
-		if noclipEnabled then
-			task.wait(0.1)
-			for _, part in ipairs(char:GetDescendants()) do
-				if part:IsA("BasePart") and part.Name ~= "HumanoidRootPart" then
-					part.CanCollide = false
-				end
-			end
-		end
-	end)
-	
-	-- === BUTTON TOGGLE ===
 	button.MouseButton1Click:Connect(function()
 		local newState = not button:GetAttribute("toggle")
 		button:SetAttribute("toggle", newState)
@@ -7115,9 +7107,31 @@ local script = G2L["a8"];
 		button.Image = newState 
 			and "http://www.roblox.com/asset/?id=75082622496228" 
 			or "http://www.roblox.com/asset/?id=76864339841735"
+		
+		
+		while script.Parent:GetAttribute("toggle") do
+		task.wait(0.5)
+		speaker = game.Players.LocalPlayer
+		Clip = false
+		wait(0.1)
+		local function NoclipLoop()
+			if Clip == false and speaker.Character ~= nil then
+				for _, child in pairs(speaker.Character:GetDescendants()) do
+					if child:IsA("BasePart") and child.CanCollide == true then
+						child.CanCollide = false
+					end
+				end
+			end
+		end
+		Noclipping = RunService.Stepped:Connect(NoclipLoop)
+		end
+		if script.Parent:GetAttribute("toggle") == false then
+			if Noclipping then
+				Noclipping:Disconnect()
+			end
+			Clip = true
+		end
 	
-		-- FIXED: check the button, not script.Parent
-		noclipEnabled = newState
 	end)
 	
 end;
@@ -7789,21 +7803,18 @@ local script = G2L["109"];
 	local Players = game:GetService("Players")
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
 	
+	local obistart
+	local sigmastart
+	
 	local plr = Players.LocalPlayer
 	local char = plr.Character or plr.CharacterAdded:Wait()
 	local CFRAME = char:WaitForChild("HumanoidRootPart")
-	
-	local coOBI, coSIGMA
-	local Start = false
-	local CurrentMode = nil -- "OBI" or "SIGMA"
-	
 	local button = script.Parent.Parent:WaitForChild("ImageButton")
 	
-	local function obistart()
-		while Start and CurrentMode == "OBI" do
+	task.spawn(function()
+		while obistart do
 			task.wait(0.3)
-			CFRAME.CFrame = workspace:WaitForChild("Map"):WaitForChild("Ingame")
-				:WaitForChild(plr.Name .. "Spray"):WaitForChild("Hitbox").CFrame
+			CFRAME.CFrame = workspace:WaitForChild("Map"):WaitForChild("Ingame"):WaitForChild(plr.Name .. "Spray"):WaitForChild("Hitbox").CFrame
 	
 			local args = {
 				[1] = plr.Name .. "SkateTrick",
@@ -7811,31 +7822,18 @@ local script = G2L["109"];
 			}
 			ReplicatedStorage.Modules.Network.RemoteEvent:FireServer(unpack(args))
 		end
-	end
+	end)
+	task.spawn(function()
+			while sigmastart do
+				task.wait(0.3)
 	
-	local function SIGMAstart()
-		while Start and CurrentMode == "SIGMA" do
-			task.wait(0.3)
-	
-			local args = {
-				[1] = plr.Name .. "SkateTrick",
-				[2] = {}
-			}
-			ReplicatedStorage.Modules.Network.RemoteEvent:FireServer(unpack(args))
-		end
-	end
-	
-	-- safely stop whichever mode is active
-	local function stopAll()
-		Start = false
-		if coOBI and coroutine.status(coOBI) ~= "dead" then
-			coroutine.close(coOBI)
-		end
-		if coSIGMA and coroutine.status(coSIGMA) ~= "dead" then
-			coroutine.close(coSIGMA)
-		end
-		CurrentMode = nil
-	end
+				local args = {
+					[1] = plr.Name .. "SkateTrick",
+					[2] = {}
+				}
+				ReplicatedStorage.Modules.Network.RemoteEvent:FireServer(unpack(args))
+			end
+	end)
 	
 	button:SetAttribute("toggle", false)
 	button.Image = "http://www.roblox.com/asset/?id=76864339841735"
@@ -7843,33 +7841,20 @@ local script = G2L["109"];
 	button.MouseButton1Click:Connect(function()
 		local newState = not button:GetAttribute("toggle")
 		button:SetAttribute("toggle", newState)
-		button.Image = newState and "http://www.roblox.com/asset/?id=75082622496228"
-			or "http://www.roblox.com/asset/?id=76864339841735"
+		button.Image = newState and "http://www.roblox.com/asset/?id=75082622496228" or "http://www.roblox.com/asset/?id=76864339841735"
 	
-		if newState then
-			stopAll() -- make sure nothing else is running before starting
-			Start = true
+		sigmastart = false
+		obistart = false
 	
-			CFRAME.CFrame = workspace:WaitForChild("Map"):WaitForChild("Ingame")
-				:WaitForChild(plr.Name .. "Spray"):WaitForChild("Hitbox").CFrame
-	
-			task.wait(0.5)
-			ReplicatedStorage.Modules.Network.RemoteEvent:FireServer("UseActorAbility", {
-				buffer.fromstring("\"Sk8\"")
-			})
-	
-			if button.Parent:GetAttribute("SigmaMode") then
-				CurrentMode = "SIGMA"
-				coSIGMA = coroutine.create(SIGMAstart)
-				coroutine.resume(coSIGMA)
+		if script.Parent:GetAttribute("toggle") then
+			if script.Parent.Parent:GetAttribute("SigmaMode") then
+				sigmastart = true
 			else
-				CurrentMode = "OBI"
-				coOBI = coroutine.create(obistart)
-				coroutine.resume(coOBI)
+				obistart = true
 			end
-		else
-			stopAll()
 		end
+		
+		
 	end)
 	
 end;
@@ -8273,48 +8258,28 @@ task.spawn(C_14e);
 local function C_15a()
 local script = G2L["15a"];
 	local button = script.Parent.Parent:WaitForChild("ImageButton")
-	local Players = game:GetService("Players")
-	local player = Players.LocalPlayer
-	
-	local sliderTrigger = script.Parent.Parent.Parent:WaitForChild("Slider")
-		:WaitForChild("Slider")
-		:WaitForChild("Trigger")
+	local TeleportService = game:GetService("TeleportService")
+	local PlaceId = game.PlaceId
+	local Players = game.Players
+	local speed = script.Parent.Parent.Parent:WaitForChild("Slider"):WaitForChild("Slider"):WaitForChild("Trigger"):GetAttribute("OutputValue")
 	
 	button:SetAttribute("toggle", false)
 	button.Image = "http://www.roblox.com/asset/?id=76864339841735"
 	
-	-- keep updated humanoid
-	local humanoid
-	local function bindHumanoid(char)
-		humanoid = char:WaitForChild("Humanoid")
-	end
-	
-	bindHumanoid(player.Character or player.CharacterAdded:Wait())
-	player.CharacterAdded:Connect(bindHumanoid)
-	
 	button.MouseButton1Click:Connect(function()
 		local newState = not button:GetAttribute("toggle")
 		button:SetAttribute("toggle", newState)
+		button.Image = newState and "http://www.roblox.com/asset/?id=75082622496228" or "http://www.roblox.com/asset/?id=76864339841735"
 	
-		button.Image = newState 
-			and "http://www.roblox.com/asset/?id=75082622496228" 
-			or  "http://www.roblox.com/asset/?id=76864339841735"
-	
-		-- FIXED: use button toggle, NOT script.Parent toggle
-		if not newState then
-			if humanoid then
-				humanoid.WalkSpeed = 16
-			end
+		if script.Parent:GetAttribute("toggle") == false then
+			game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = 16
 			return
 		end
 	
-		-- LOOP WHILE TOGGLED
-		while button:GetAttribute("toggle") do
-			local speed = sliderTrigger:GetAttribute("OutputValue")
-			if humanoid then
-				humanoid.WalkSpeed = speed
-			end
-			task.wait(0.2)
+		while script.Parent:GetAttribute("toggle") do
+			speed = script.Parent.Parent.Parent:WaitForChild("Slider"):WaitForChild("Slider"):WaitForChild("Trigger"):GetAttribute("OutputValue")
+			game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = speed
+			task.wait(1)
 		end
 	end)
 	
@@ -8324,115 +8289,106 @@ task.spawn(C_15a);
 local function C_15e()
 local script = G2L["15e"];
 	local button = script.Parent.Parent:WaitForChild("ImageButton")
-	local Players = game:GetService("Players")
-	local player = Players.LocalPlayer
+		local TeleportService = game:GetService("TeleportService")
+		local Players = game.Players
 	
-	button:SetAttribute("toggle", false)
-	button.Image = "http://www.roblox.com/asset/?id=76864339841735"
+		button:SetAttribute("toggle", false)
+		button.Image = "http://www.roblox.com/asset/?id=76864339841735"
 	
-	-- Keep updated references
-	local character = player.Character or player.CharacterAdded:Wait()
-	local humanoid = character:WaitForChild("Humanoid")
+		button.MouseButton1Click:Connect(function()
+			local newState = not button:GetAttribute("toggle")
+			button:SetAttribute("toggle", newState)
+			button.Image = newState and "http://www.roblox.com/asset/?id=75082622496228" or "http://www.roblox.com/asset/?id=76864339841735"
 	
-	-- Update when character respawns
-	player.CharacterAdded:Connect(function(char)
-		character = char
-		humanoid = char:WaitForChild("Humanoid")
-	end)
-	
-	button.MouseButton1Click:Connect(function()
-		local newState = not button:GetAttribute("toggle")
-		button:SetAttribute("toggle", newState)
-	
-		button.Image = newState 
-			and "http://www.roblox.com/asset/?id=75082622496228" 
-			or  "http://www.roblox.com/asset/?id=76864339841735"
-	
-		-- If OFF → reset
-		if newState == false then
-			humanoid.JumpHeight = 7.2
-			return
+			if script.Parent:GetAttribute("toggle") == false then
+			if game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').UseJumpPower then
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').JumpPower = 7.2
+			else
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').JumpHeight  = 7.2
+				return
+				end
 		end
 	
-		-- If ON → loop until turned OFF
-		while button:GetAttribute("toggle") == true do
-			humanoid.JumpHeight = 7.2
+		while script.Parent:GetAttribute("toggle") do
+			if game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').UseJumpPower then
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').JumpPower = 7.2
+			else
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').JumpHeight  = 7.2
 			task.wait(1)
+			end
 		end
-	end)
+		end)
 	
 end;
 task.spawn(C_15e);
 -- StarterGui.Real Deal V2.Main.StunBtn.LocalScript
 local function C_162()
 local script = G2L["162"];
-	local a = workspace:WaitForChild("Players"):WaitForChild("Killers"):GetChildren()
-	local name = nil
-	local player = game.Players.LocalPlayer
-	
-	local charector = player.Character or player.CharacterAdded:Wait()
-	local hrp = charector:WaitForChild("HumanoidRootPart")
-	local part = Instance.new("Part")
-	
 	script.Parent.MouseButton1Down:Connect(function()
+		local a = workspace:WaitForChild("Players"):WaitForChild("Killers"):GetChildren()
+		local name = nil
+		local player = game.Players.LocalPlayer
 	
-	if workspace:FindFirstChild("BTCH") then
-		workspace:WaitForChild("BTCH"):Destroy()
-	end
+		local charector = player.Character or player.CharacterAdded:Wait()
+		local hrp = charector:WaitForChild("HumanoidRootPart")
+		local part = Instance.new("Part")
 	
-	
-	local pos = hrp.Position
-	local FOLDER = Instance.new("Folder")
-	FOLDER.Name = "BTCH"
-	FOLDER.Parent = workspace
-	
-	local xPos = hrp.Position.X
-	local yPos = hrp.Position.Y
-	local zPos = hrp.Position.Z
-	
-	local xDir = hrp.Rotation.X
-	local yDir = hrp.Rotation.Y
-	local zDir = hrp.Rotation.Z
-	
-	
-	part.Position = Vector3.new(xPos,yPos,zPos)
-	part.Rotation = Vector3.new(xDir,yDir,zDir)
-	part.Anchored = true
-	part.Parent = workspace.BTCH
-	part.CanCollide = false
-	part.Transparency = 1
-	
-	for i, v in ipairs(a) do
-		name = v.name
-	end
-	
-	if name ~= nil then
-	
-		game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent"):FireServer("UseActorAbility", { "Slash"})
-		game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent"):FireServer("UseActorAbility", { "Punch"})
-		game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent"):FireServer("UseActorAbility", { "Shoot"})
-		task.wait(0.4)
-		_G.you = 0
-		task.spawn(function()
-			task.wait(0.00003)
-			game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent"):FireServer("UseActorAbility", { "Dagger"})
-		end)
-		while _G.you < 10 do
-			_G.you = _G.you+1
-			task.wait(0.01)
-			hrp.CFrame = workspace:WaitForChild("Players"):WaitForChild("Killers"):WaitForChild(name):WaitForChild("HumanoidRootPart").CFrame
+		if workspace:FindFirstChild("BTCH") then
+			workspace:WaitForChild("BTCH"):Destroy()
 		end
-	end
-	task.wait(0.65)
 	
-	hrp.CFrame = part.CFrame
-	FOLDER:Destroy()
+		local pos = hrp.Position
+		local FOLDER = Instance.new("Folder")
+		FOLDER.Name = "BTCH"
+		FOLDER.Parent = workspace
+	
+		local xPos = hrp.Position.X
+		local yPos = hrp.Position.Y
+		local zPos = hrp.Position.Z
+	
+		local xDir = hrp.Rotation.X
+		local yDir = hrp.Rotation.Y
+		local zDir = hrp.Rotation.Z
+	
+	
+		part.Position = Vector3.new(xPos,yPos,zPos)
+		part.Rotation = Vector3.new(xDir,yDir,zDir)
+		part.Anchored = true
+		part.Parent = workspace.BTCH
+		part.CanCollide = false
+		part.Transparency = 1
+	
+		for i, v in ipairs(a) do
+			name = v.name
+		end
+	
+		if name ~= nil then
+	
+			game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent"):FireServer("UseActorAbility", { "Slash"})
+			game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent"):FireServer("UseActorAbility", { "Punch"})
+			game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent"):FireServer("UseActorAbility", { "Shoot"})
+			task.wait(0.4)
+			_G.you = 0
+			task.spawn(function()
+				task.wait(0.00003)
+				game:GetService("ReplicatedStorage"):WaitForChild("Modules"):WaitForChild("Network"):WaitForChild("RemoteEvent"):FireServer("UseActorAbility", { "Dagger"})
+			end)
+			while _G.you < 10 do
+				_G.you = _G.you+1
+				task.wait(0.01)
+				hrp.CFrame = workspace:WaitForChild("Players"):WaitForChild("Killers"):WaitForChild(name):WaitForChild("HumanoidRootPart").CFrame
+			end
+		end
+		task.wait(0.65)
+	
+		hrp.CFrame = part.CFrame
+		FOLDER:Destroy()
 	end)
 end;
 task.spawn(C_162);
 -- StarterGui.Real Deal V2.Main.Open.LocalScript
-local function C_165()
-local script = G2L["165"];
+local function C_166()
+local script = G2L["166"];
 	local open = script.Parent.Parent:WaitForChild("Open")
 	
 	open.MouseButton1Up:Connect(function()
@@ -8476,10 +8432,10 @@ local script = G2L["165"];
 	end)
 	
 end;
-task.spawn(C_165);
+task.spawn(C_166);
 -- StarterGui.Real Deal V2.Main.HAKARIBUTTON.LocalScript
-local function C_16a()
-local script = G2L["16a"];
+local function C_16b()
+local script = G2L["16b"];
 	local player = game.Players.LocalPlayer
 	local animationId = "rbxassetid://138019937280193"
 	
@@ -8528,16 +8484,16 @@ local script = G2L["16a"];
 	end)
 	
 end;
-task.spawn(C_16a);
+task.spawn(C_16b);
 -- StarterGui.Real Deal V2.Main.Warning.LocalScript
-local function C_16e()
-local script = G2L["16e"];
+local function C_170()
+local script = G2L["170"];
 	script.Parent.Visible = false
 end;
-task.spawn(C_16e);
+task.spawn(C_170);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.TextBox.TextButton.LocalScript
-local function C_17a()
-local script = G2L["17a"];
+local function C_17c()
+local script = G2L["17c"];
 	local keybinds = {
 		"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q",
 		"R","S","T","U","V","W","X","Y","Z"
@@ -8587,17 +8543,17 @@ local script = G2L["17a"];
 	end)
 	
 end;
-task.spawn(C_17a);
+task.spawn(C_17c);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.LocalScript
-local function C_180()
-local script = G2L["180"];
+local function C_182()
+local script = G2L["182"];
 	script.Parent.Parent.Parent:WaitForChild("KeybindThingyForHAKARI").Visible = false
 	script.Parent.Parent.Parent:WaitForChild("HAKARIBUTTON").Visible = false
 end;
-task.spawn(C_180);
+task.spawn(C_182);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.Yes.LocalScript
-local function C_183()
-local script = G2L["183"];
+local function C_185()
+local script = G2L["185"];
 	script.Parent.Parent:WaitForChild("Yes").MouseButton1Down:Connect(function()
 		if script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForHAKARI"):WaitForChild("TextBox").Text ~= "SecretButton" then
 			script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForHAKARI"):WaitForChild("TextBox"):SetAttribute("value", "Z")
@@ -8614,10 +8570,10 @@ local script = G2L["183"];
 		end
 	end)
 end;
-task.spawn(C_183);
+task.spawn(C_185);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForHAKARI.Confirm.No.LocalScript
-local function C_186()
-local script = G2L["186"];
+local function C_188()
+local script = G2L["188"];
 	script.Parent.Parent:WaitForChild("No").MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent:WaitForChild("Confirm").Visible = false
 		script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForHAKARI"):WaitForChild("TextBox").Text = "ENTER THE KEYBIND DEFAULT IS 'Z'"		
@@ -8625,10 +8581,10 @@ local script = G2L["186"];
 		script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForHAKARI"):WaitForChild("TextBox"):SetAttribute("value", "")	
 	end)
 end;
-task.spawn(C_186);
+task.spawn(C_188);
 -- StarterGui.Real Deal V2.Main.KeybindThingy.TextBox.TextButton.LocalScript
-local function C_196()
-local script = G2L["196"];
+local function C_198()
+local script = G2L["198"];
 	local keybinds = {
 		"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q",
 		"R","S","T","U","V","W","X","Y","Z"
@@ -8678,17 +8634,17 @@ local script = G2L["196"];
 	end)
 	
 end;
-task.spawn(C_196);
+task.spawn(C_198);
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.LocalScript
-local function C_19c()
-local script = G2L["19c"];
+local function C_19e()
+local script = G2L["19e"];
 	script.Parent.Parent.Parent:WaitForChild("KeybindThingy").Visible = false
 	script.Parent.Parent.Parent:WaitForChild("StunBtn").Visible = false
 end;
-task.spawn(C_19c);
+task.spawn(C_19e);
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.Yes.LocalScript
-local function C_19f()
-local script = G2L["19f"];
+local function C_1a1()
+local script = G2L["1a1"];
 	script.Parent.Parent:WaitForChild("Yes").MouseButton1Down:Connect(function()
 		if script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingy"):WaitForChild("TextBox").Text ~= "SecretButton" then
 			script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingy"):WaitForChild("TextBox"):SetAttribute("value", "Z")
@@ -8705,10 +8661,10 @@ local script = G2L["19f"];
 		end
 	end)
 end;
-task.spawn(C_19f);
+task.spawn(C_1a1);
 -- StarterGui.Real Deal V2.Main.KeybindThingy.Confirm.No.LocalScript
-local function C_1a2()
-local script = G2L["1a2"];
+local function C_1a4()
+local script = G2L["1a4"];
 	script.Parent.Parent:WaitForChild("No").MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent:WaitForChild("Confirm").Visible = false
 		script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingy"):WaitForChild("TextBox").Text = "ENTER THE KEYBIND DEFAULT IS 'Z'"		
@@ -8716,10 +8672,10 @@ local script = G2L["1a2"];
 		script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingy"):WaitForChild("TextBox"):SetAttribute("value", "")	
 	end)
 end;
-task.spawn(C_1a2);
+task.spawn(C_1a4);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.TextBox.TextButton.LocalScript
-local function C_1b2()
-local script = G2L["1b2"];
+local function C_1b4()
+local script = G2L["1b4"];
 	local keybinds = {
 		"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q",
 		"R","S","T","U","V","W","X","Y","Z"
@@ -8769,17 +8725,17 @@ local script = G2L["1b2"];
 	end)
 	
 end;
-task.spawn(C_1b2);
+task.spawn(C_1b4);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.LocalScript
-local function C_1b8()
-local script = G2L["1b8"];
+local function C_1ba()
+local script = G2L["1ba"];
 	script.Parent.Parent.Parent:WaitForChild("KeybindThingyForFAKEBLOCK").Visible = false
 	script.Parent.Parent.Parent:WaitForChild("FakeBlockBTN").Visible = false
 end;
-task.spawn(C_1b8);
+task.spawn(C_1ba);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.Yes.LocalScript
-local function C_1bb()
-local script = G2L["1bb"];
+local function C_1bd()
+local script = G2L["1bd"];
 	script.Parent.Parent:WaitForChild("Yes").MouseButton1Down:Connect(function()
 		if script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForFAKEBLOCK"):WaitForChild("TextBox").Text ~= "SecretButton" then
 			script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForFAKEBLOCK"):WaitForChild("TextBox"):SetAttribute("value", "Z")
@@ -8796,10 +8752,10 @@ local script = G2L["1bb"];
 		end
 	end)
 end;
-task.spawn(C_1bb);
+task.spawn(C_1bd);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForFAKEBLOCK.Confirm.No.LocalScript
-local function C_1be()
-local script = G2L["1be"];
+local function C_1c0()
+local script = G2L["1c0"];
 	script.Parent.Parent:WaitForChild("No").MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent:WaitForChild("Confirm").Visible = false
 		script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForFAKEBLOCK"):WaitForChild("TextBox").Text = "ENTER THE KEYBIND DEFAULT IS 'Z'"		
@@ -8807,10 +8763,10 @@ local script = G2L["1be"];
 		script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForFAKEBLOCK"):WaitForChild("TextBox"):SetAttribute("value", "")	
 	end)
 end;
-task.spawn(C_1be);
+task.spawn(C_1c0);
 -- StarterGui.Real Deal V2.Main.FakeBlockBTN.LocalScript
-local function C_1c7()
-local script = G2L["1c7"];
+local function C_1c9()
+local script = G2L["1c9"];
 	local player = game.Players.LocalPlayer
 	local animationId = script.Parent.Parent:WaitForChild("CanvasGroup"):WaitForChild("THETABS"):WaitForChild("Extra"):WaitForChild("Fake Block"):GetAttribute("Animation")
 	
@@ -8850,10 +8806,10 @@ local script = G2L["1c7"];
 	end)
 	
 end;
-task.spawn(C_1c7);
+task.spawn(C_1c9);
 -- StarterGui.Real Deal V2.Main.SPINTHINGYBUTTON.LocalScript
-local function C_1cb()
-local script = G2L["1cb"];
+local function C_1ce()
+local script = G2L["1ce"];
 	local a = workspace:WaitForChild("Players"):WaitForChild("Killers"):GetChildren()
 	local name = nil
 	local player = game.Players.LocalPlayer
@@ -8939,10 +8895,10 @@ local script = G2L["1cb"];
 	FrontFlip()
 	end)
 end;
-task.spawn(C_1cb);
+task.spawn(C_1ce);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.TextBox.TextButton.LocalScript
-local function C_1d5()
-local script = G2L["1d5"];
+local function C_1d9()
+local script = G2L["1d9"];
 	local keybinds = {
 		"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q",
 		"R","S","T","U","V","W","X","Y","Z"
@@ -8992,17 +8948,17 @@ local script = G2L["1d5"];
 	end)
 	
 end;
-task.spawn(C_1d5);
+task.spawn(C_1d9);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.LocalScript
-local function C_1db()
-local script = G2L["1db"];
+local function C_1df()
+local script = G2L["1df"];
 	script.Parent.Parent.Parent:WaitForChild("KeybindThingyForSPIN").Visible = false
 	script.Parent.Parent.Parent:WaitForChild("SPINTHINGYBUTTON").Visible = false
 end;
-task.spawn(C_1db);
+task.spawn(C_1df);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.Yes.LocalScript
-local function C_1de()
-local script = G2L["1de"];
+local function C_1e2()
+local script = G2L["1e2"];
 	script.Parent.Parent:WaitForChild("Yes").MouseButton1Down:Connect(function()
 		if script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForSPIN"):WaitForChild("TextBox").Text ~= "SecretButton" then
 			script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForSPIN"):WaitForChild("TextBox"):SetAttribute("value", "Z")
@@ -9019,10 +8975,10 @@ local script = G2L["1de"];
 		end
 	end)
 end;
-task.spawn(C_1de);
+task.spawn(C_1e2);
 -- StarterGui.Real Deal V2.Main.KeybindThingyForSPIN.Confirm.No.LocalScript
-local function C_1e1()
-local script = G2L["1e1"];
+local function C_1e5()
+local script = G2L["1e5"];
 	script.Parent.Parent:WaitForChild("No").MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent:WaitForChild("Confirm").Visible = false
 		script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForSPIN"):WaitForChild("TextBox").Text = "ENTER THE KEYBIND DEFAULT IS 'Z'"		
@@ -9030,40 +8986,40 @@ local script = G2L["1e1"];
 		script.Parent.Parent.Parent.Parent:WaitForChild("KeybindThingyForSPIN"):WaitForChild("TextBox"):SetAttribute("value", "")	
 	end)
 end;
-task.spawn(C_1e1);
+task.spawn(C_1e5);
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.TextBox.TextButton.LocalScript
-local function C_1f0()
-local script = G2L["1f0"];
+local function C_1f4()
+local script = G2L["1f4"];
 	
 end;
-task.spawn(C_1f0);
+task.spawn(C_1f4);
 -- StarterGui.Real Deal V2.KeySystem.CanvasGroup.Close.LocalScript
-local function C_1f8()
-local script = G2L["1f8"];
+local function C_1fc()
+local script = G2L["1fc"];
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end;
-task.spawn(C_1f8);
+task.spawn(C_1fc);
 -- StarterGui.Real Deal V2.Warning.TextButton.LocalScript
-local function C_1fe()
-local script = G2L["1fe"];
+local function C_202()
+local script = G2L["202"];
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent:Destroy()
 	end)
 end;
-task.spawn(C_1fe);
+task.spawn(C_202);
 -- StarterGui.Real Deal V2.Warning.TextLabel.LocalScript
-local function C_202()
-local script = G2L["202"];
+local function C_206()
+local script = G2L["206"];
 	if game.Players.LocalPlayer.Name ~= "ThisMyLoginBlue" then
 	script.Parent.Text = "You Are Using" .. identifyexecutor() .. " And Stamina Related Things Will Most Probably Not Work So It Is Advised To Use A Better Executor Such As Delta and KRNL For Mobile And Velocity Or LX63 For PC (Keyless) Or Visit https://voxlis.net"
 	end
 end;
-task.spawn(C_202);
+task.spawn(C_206);
 -- StarterGui.Real Deal V2.THESEIDOTS.NOTURBUSSINESS
-local function C_204()
-local script = G2L["204"];
+local function C_208()
+local script = G2L["208"];
 	local yes = true
 	while _G.STARTTHEMFING do
 		if yes then
@@ -9072,14 +9028,14 @@ local script = G2L["204"];
 		end
 	end
 end;
-task.spawn(C_204);
+task.spawn(C_208);
 -- StarterGui.Real Deal V2.THESEIDOTS.CanvasGroup.TextButton.LocalScript
-local function C_20a()
-local script = G2L["20a"];
+local function C_20e()
+local script = G2L["20e"];
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer:Kick("USE THE ORIGINAL SCRIPT AND SKIDDERS STOP SKIDDING")
 	end)
 end;
-task.spawn(C_20a);
+task.spawn(C_20e);
 
 return G2L["1"], require;
