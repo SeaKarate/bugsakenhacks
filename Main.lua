@@ -866,7 +866,7 @@ G2L["69"]["BackgroundColor3"] = Color3.fromRGB(105, 105, 105);
 G2L["69"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["69"]["Size"] = UDim2.new(0.03, 0, 0.8, 0);
 G2L["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["69"]["Text"] = [[Admin Mode]];
+G2L["69"]["Text"] = [[Premium   Mode]];
 G2L["69"]["Name"] = [[Admin Mode]];
 G2L["69"]["Position"] = UDim2.new(0.97, 0, 0, 0);
 
@@ -3335,14 +3335,14 @@ G2L["15d"]["Position"] = UDim2.new(0.23535, 0, 1, 0);
 G2L["15d"]:SetAttribute([[toggle]], [[]]);
 
 
--- StarterGui.Real Deal V2.Main.CanvasGroup.THETABS.More.AbilityToJump.ImageButton.UICorner
-G2L["15e"] = Instance.new("UICorner", G2L["15d"]);
-G2L["15e"]["CornerRadius"] = UDim.new(0, 15);
-
-
 -- StarterGui.Real Deal V2.Main.CanvasGroup.THETABS.More.AbilityToJump.ImageButton.LocalScript
-G2L["15f"] = Instance.new("LocalScript", G2L["15d"]);
+G2L["15e"] = Instance.new("LocalScript", G2L["15d"]);
 
+
+
+-- StarterGui.Real Deal V2.Main.CanvasGroup.THETABS.More.AbilityToJump.ImageButton.UICorner
+G2L["15f"] = Instance.new("UICorner", G2L["15d"]);
+G2L["15f"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.Real Deal V2.Main.CanvasGroup.UIAspectRatioConstraint
@@ -7068,54 +7068,56 @@ local script = G2L["a8"];
 	local Players = game:GetService("Players")
 	local RunService = game:GetService("RunService")
 	
-	local LocalPlr = Players.LocalPlayer
+	local player = Players.LocalPlayer
 	
 	local button = script.Parent.Parent:WaitForChild("ImageButton")
 	local exitButton = script.Parent.Parent.Parent:WaitForChild("Exit"):WaitForChild("ImageButton")
 	
 	button:SetAttribute("toggle", false)
 	button.Image = "http://www.roblox.com/asset/?id=76864339841735"
-	local noclipEnabled = false
-	local player = game.Players.LocalPlayer
 	
-	-- === Noclip setup ===
-	task.spawn(function()
-		RunService.Stepped:Connect(function()
-			if noclipEnabled then
-				local char = player.Character
-				if char then
-					for _, part in pairs(char:GetDescendants()) do
-						if part:IsA("BasePart") and part.CanCollide then
-							part.CanCollide = false
-						end
+	local noclipEnabled = false
+	
+	-- === MAIN NOCLIP LOOP ===
+	RunService.Stepped:Connect(function()
+		if noclipEnabled then
+			local char = player.Character
+			if char then
+				for _, part in ipairs(char:GetDescendants()) do
+					-- DO NOT noclip HumanoidRootPart
+					if part:IsA("BasePart") and part.Name ~= "HumanoidRootPart" then
+						part.CanCollide = false
 					end
 				end
 			end
-		end)
+		end
 	end)
 	
+	-- === APPLY NOCLIP ON RESPAWN ===
 	player.CharacterAdded:Connect(function(char)
-		char:WaitForChild("HumanoidRootPart", 5)
+		char:WaitForChild("HumanoidRootPart")
+	
 		if noclipEnabled then
 			task.wait(0.1)
-			for _, part in pairs(char:GetDescendants()) do
-				if part:IsA("BasePart") then
+			for _, part in ipairs(char:GetDescendants()) do
+				if part:IsA("BasePart") and part.Name ~= "HumanoidRootPart" then
 					part.CanCollide = false
 				end
 			end
 		end
 	end)
 	
+	-- === BUTTON TOGGLE ===
 	button.MouseButton1Click:Connect(function()
 		local newState = not button:GetAttribute("toggle")
 		button:SetAttribute("toggle", newState)
-		button.Image = newState and "http://www.roblox.com/asset/?id=75082622496228" or "http://www.roblox.com/asset/?id=76864339841735"
 	
-			if script.Parent:GetAttribute("toggle") then
-				noclipEnabled = true
-			else
-				noclipEnabled = false
-		end
+		button.Image = newState 
+			and "http://www.roblox.com/asset/?id=75082622496228" 
+			or "http://www.roblox.com/asset/?id=76864339841735"
+	
+		-- FIXED: check the button, not script.Parent
+		noclipEnabled = newState
 	end)
 	
 end;
@@ -8271,62 +8273,96 @@ task.spawn(C_14e);
 local function C_15a()
 local script = G2L["15a"];
 	local button = script.Parent.Parent:WaitForChild("ImageButton")
-	local TeleportService = game:GetService("TeleportService")
-	local PlaceId = game.PlaceId
-	local Players = game.Players
-	local speed = script.Parent.Parent.Parent:WaitForChild("Slider"):WaitForChild("Slider"):WaitForChild("Trigger"):GetAttribute("OutputValue")
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	
+	local sliderTrigger = script.Parent.Parent.Parent:WaitForChild("Slider")
+		:WaitForChild("Slider")
+		:WaitForChild("Trigger")
 	
 	button:SetAttribute("toggle", false)
 	button.Image = "http://www.roblox.com/asset/?id=76864339841735"
 	
+	-- keep updated humanoid
+	local humanoid
+	local function bindHumanoid(char)
+		humanoid = char:WaitForChild("Humanoid")
+	end
+	
+	bindHumanoid(player.Character or player.CharacterAdded:Wait())
+	player.CharacterAdded:Connect(bindHumanoid)
+	
 	button.MouseButton1Click:Connect(function()
 		local newState = not button:GetAttribute("toggle")
 		button:SetAttribute("toggle", newState)
-		button.Image = newState and "http://www.roblox.com/asset/?id=75082622496228" or "http://www.roblox.com/asset/?id=76864339841735"
 	
-		if script.Parent:GetAttribute("toggle") == false then
-			game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = 16
+		button.Image = newState 
+			and "http://www.roblox.com/asset/?id=75082622496228" 
+			or  "http://www.roblox.com/asset/?id=76864339841735"
+	
+		-- FIXED: use button toggle, NOT script.Parent toggle
+		if not newState then
+			if humanoid then
+				humanoid.WalkSpeed = 16
+			end
 			return
 		end
-		
-		while script.Parent:GetAttribute("toggle") do
-			speed = script.Parent.Parent.Parent:WaitForChild("Slider"):WaitForChild("Slider"):WaitForChild("Trigger"):GetAttribute("OutputValue")
-			game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = speed
-			task.wait(1)
+	
+		-- LOOP WHILE TOGGLED
+		while button:GetAttribute("toggle") do
+			local speed = sliderTrigger:GetAttribute("OutputValue")
+			if humanoid then
+				humanoid.WalkSpeed = speed
+			end
+			task.wait(0.2)
 		end
 	end)
 	
 end;
 task.spawn(C_15a);
 -- StarterGui.Real Deal V2.Main.CanvasGroup.THETABS.More.AbilityToJump.ImageButton.LocalScript
-local function C_15f()
-local script = G2L["15f"];
+local function C_15e()
+local script = G2L["15e"];
 	local button = script.Parent.Parent:WaitForChild("ImageButton")
-	local TeleportService = game:GetService("TeleportService")
-	local PlaceId = game.PlaceId
-	local Players = game.Players
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
 	
 	button:SetAttribute("toggle", false)
 	button.Image = "http://www.roblox.com/asset/?id=76864339841735"
 	
+	-- Keep updated references
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	-- Update when character respawns
+	player.CharacterAdded:Connect(function(char)
+		character = char
+		humanoid = char:WaitForChild("Humanoid")
+	end)
+	
 	button.MouseButton1Click:Connect(function()
 		local newState = not button:GetAttribute("toggle")
 		button:SetAttribute("toggle", newState)
-		button.Image = newState and "http://www.roblox.com/asset/?id=75082622496228" or "http://www.roblox.com/asset/?id=76864339841735"
-		
-		if script.Parent:GetAttribute("toggle") == false then
-			game.Players.LocalPlayer.Character:WaitForChild("Humanoid").JumpHeight = 7.2
+	
+		button.Image = newState 
+			and "http://www.roblox.com/asset/?id=75082622496228" 
+			or  "http://www.roblox.com/asset/?id=76864339841735"
+	
+		-- If OFF → reset
+		if newState == false then
+			humanoid.JumpHeight = 7.2
 			return
 		end
-		
-		while script.Parent:GetAttribute("toggle") do
-		game.Players.LocalPlayer.Character:WaitForChild("Humanoid").JumpHeight = 7.2
-		task.wait(1)
+	
+		-- If ON → loop until turned OFF
+		while button:GetAttribute("toggle") == true do
+			humanoid.JumpHeight = 7.2
+			task.wait(1)
 		end
 	end)
 	
 end;
-task.spawn(C_15f);
+task.spawn(C_15e);
 -- StarterGui.Real Deal V2.Main.StunBtn.LocalScript
 local function C_162()
 local script = G2L["162"];
